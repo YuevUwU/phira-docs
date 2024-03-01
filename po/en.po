@@ -40,43 +40,43 @@ msgstr ""
 
 #: src/SUMMARY.md:13 src/feature/effect/builtin/chromatic.md:1
 msgid "`chromatic`"
-msgstr ""
+msgstr "`chromatic`"
 
 #: src/SUMMARY.md:14 src/feature/effect/builtin/circleBlur.md:1
 msgid "`circleBlur`"
-msgstr ""
+msgstr "`circleBlur`"
 
 #: src/SUMMARY.md:15 src/feature/effect/builtin/fisheye.md:1
 msgid "`fisheye`"
-msgstr ""
+msgstr "`fisheye`"
 
 #: src/SUMMARY.md:16 src/feature/effect/builtin/glitch.md:1
 msgid "`glitch`"
-msgstr ""
+msgstr "`glitch`"
 
 #: src/SUMMARY.md:17 src/feature/effect/builtin/grayscale.md:1
 msgid "`grayscale`"
-msgstr ""
+msgstr "`grayscale`"
 
 #: src/SUMMARY.md:18 src/feature/effect/builtin/noise.md:1
 msgid "`noise`"
-msgstr ""
+msgstr "`noise`"
 
 #: src/SUMMARY.md:19 src/feature/effect/builtin/pixel.md:1
 msgid "`pixel`"
-msgstr ""
+msgstr "`pixel`"
 
 #: src/SUMMARY.md:20 src/feature/effect/builtin/radialBlur.md:1
 msgid "`radialBlur`"
-msgstr ""
+msgstr "`radialBlur`"
 
 #: src/SUMMARY.md:21 src/feature/effect/builtin/shockwave.md:1
 msgid "`shockwave`"
-msgstr ""
+msgstr "`shockwave`"
 
 #: src/SUMMARY.md:22
 msgid "`vignette`"
-msgstr ""
+msgstr "`vignette`"
 
 #: src/SUMMARY.md:24 src/feature/effect/custom-shader.md:1
 msgid "自行编写着色器"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: src/SUMMARY.md:61
 msgid "6th PecJam"
-msgstr ""
+msgstr "6th PecJam"
 
 #: src/index.md:1
 msgid "Phira-docs 说明"
@@ -285,31 +285,31 @@ msgstr ""
 
 #: src/respack/index.md:29
 msgid "name"
-msgstr ""
+msgstr "name"
 
 #: src/respack/index.md:29
 msgid "Default"
-msgstr ""
+msgstr "Default"
 
 #: src/respack/index.md:29
 msgid "author"
-msgstr ""
+msgstr "author"
 
 #: src/respack/index.md:30
 msgid "\"Mivik & MisaLiu\""
-msgstr ""
+msgstr "\"Mivik & MisaLiu\""
 
 #: src/respack/index.md:30
 msgid "hitFx"
-msgstr ""
+msgstr "hitFx"
 
 #: src/respack/index.md:31
 msgid "holdAtlas"
-msgstr ""
+msgstr "holdAtlas"
 
 #: src/respack/index.md:32
 msgid "holdAtlasMH"
-msgstr ""
+msgstr "holdAtlasMH"
 
 #: src/respack/index.md:36
 msgid "`name`：资源包的名字；"
@@ -429,12 +429,12 @@ msgstr ""
 
 #: src/feature/index.md:16 src/feature/index.md:17 src/feature/index.md:18
 msgid "\"bpm\""
-msgstr ""
+msgstr "\"bpm\""
 
 #: src/feature/index.md:17 src/feature/index.md:18
 #: src/feature/video/index.md:16
 msgid "\"time\""
-msgstr ""
+msgstr "\"time\""
 
 #: src/feature/index.md:24
 msgid "这里表示歌曲最初 BPM 为 `200`，而后在十又二分之一拍是转换为 `250`。"
@@ -460,37 +460,37 @@ msgstr ""
 #: src/feature/index.md:34 src/feature/index.md:57
 #: src/feature/effect/index.md:58
 msgid "\"startTime\""
-msgstr ""
+msgstr "\"startTime\""
 
 #: src/feature/index.md:35 src/feature/index.md:58
 #: src/feature/effect/index.md:59
 msgid "\"endTime\""
-msgstr ""
+msgstr "\"endTime\""
 
 #: src/feature/index.md:36 src/feature/index.md:59
 #: src/feature/effect/index.md:60
 msgid "\"easingType\""
-msgstr ""
+msgstr "\"easingType\""
 
 #: src/feature/index.md:37
 msgid "\"easingLeft\""
-msgstr ""
+msgstr "\"easingLeft\""
 
 #: src/feature/index.md:38
 msgid "\"easingRight\""
-msgstr ""
+msgstr "\"easingRight\""
 
 #: src/feature/index.md:39 src/feature/index.md:60
 #: src/feature/effect/index.md:15 src/feature/effect/index.md:52
 #: src/feature/effect/index.md:61
 msgid "\"start\""
-msgstr ""
+msgstr "\"start\""
 
 #: src/feature/index.md:40 src/feature/index.md:61
 #: src/feature/effect/index.md:16 src/feature/effect/index.md:53
 #: src/feature/effect/index.md:62
 msgid "\"end\""
-msgstr ""
+msgstr "\"end\""
 
 #: src/feature/index.md:44
 msgid ""
@@ -537,7 +537,7 @@ msgstr ""
 
 #: src/feature/effect/index.md:9
 msgid "Effect"
-msgstr ""
+msgstr "Effect"
 
 #: src/feature/effect/index.md:11
 msgid "单个 `Effect` 的格式如下所示："
@@ -545,7 +545,7 @@ msgstr ""
 
 #: src/feature/effect/index.md:17 src/feature/effect/index.md:54
 msgid "\"shader\""
-msgstr ""
+msgstr "\"shader\""
 
 #: src/feature/effect/index.md:17
 msgid "\"着色器名字\""
@@ -553,12 +553,12 @@ msgstr ""
 
 #: src/feature/effect/index.md:18
 msgid "\"global\""
-msgstr ""
+msgstr "\"global\""
 
 #: src/feature/effect/index.md:19 src/feature/effect/index.md:36
 #: src/feature/effect/index.md:55
 msgid "\"vars\""
-msgstr ""
+msgstr "\"vars\""
 
 #: src/feature/effect/index.md:25
 msgid ""
@@ -585,11 +585,11 @@ msgstr ""
 
 #: src/feature/effect/index.md:37 src/feature/effect/index.md:56
 msgid "\"power\""
-msgstr ""
+msgstr "\"power\""
 
 #: src/feature/effect/index.md:38
 msgid "\"radius\""
-msgstr ""
+msgstr "\"radius\""
 
 #: src/feature/effect/index.md:43 src/feature/effect/custom-shader.md:36
 msgid "示例"
@@ -604,15 +604,15 @@ msgstr ""
 
 #: src/feature/effect/index.md:50
 msgid "\"effects\""
-msgstr ""
+msgstr "\"effects\""
 
 #: src/feature/effect/index.md:54
 msgid "\"chromatic\""
-msgstr ""
+msgstr "\"chromatic\""
 
 #: src/feature/effect/index.md:65
 msgid "\"sampleCount\""
-msgstr ""
+msgstr "\"sampleCount\""
 
 #: src/feature/effect/index.md:74
 msgid ""
@@ -828,7 +828,7 @@ msgstr ""
 
 #: src/feature/effect/builtin/vignette.md:1
 msgid "vignette"
-msgstr ""
+msgstr "vignette"
 
 #: src/feature/effect/builtin/vignette.md:3
 msgid ""
@@ -946,7 +946,7 @@ msgstr ""
 
 #: src/feature/video/index.md:9
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: src/feature/video/index.md:11
 msgid "单个 `Video` 的格式如下所示："
@@ -954,27 +954,27 @@ msgstr ""
 
 #: src/feature/video/index.md:15
 msgid "\"path\""
-msgstr ""
+msgstr "\"path\""
 
 #: src/feature/video/index.md:15
 msgid "\"bga.mp4\""
-msgstr ""
+msgstr "\"bga.mp4\""
 
 #: src/feature/video/index.md:17
 msgid "\"scale\""
-msgstr ""
+msgstr "\"scale\""
 
 #: src/feature/video/index.md:17
 msgid "\"cropCenter\""
-msgstr ""
+msgstr "\"cropCenter\""
 
 #: src/feature/video/index.md:18
 msgid "\"alpha\""
-msgstr ""
+msgstr "\"alpha\""
 
 #: src/feature/video/index.md:19
 msgid "\"dim\""
-msgstr ""
+msgstr "\"dim\""
 
 #: src/feature/video/index.md:23
 msgid "其中 `path` 为必填，指向视频文件路径，其它四项均为选填。"
@@ -1085,7 +1085,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:5
 msgid "`Float`"
-msgstr ""
+msgstr "`Float`"
 
 #: src/uml/syntax/type.md:7
 msgid "单精度浮点数, 任意的数字都是 `Float`."
@@ -1093,7 +1093,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:9
 msgid "`Rect`"
-msgstr ""
+msgstr "`Rect`"
 
 #: src/uml/syntax/type.md:11
 msgid ""
@@ -1139,7 +1139,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:24
 msgid "`Bool`"
-msgstr ""
+msgstr "`Bool`"
 
 #: src/uml/syntax/type.md:26
 msgid "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
@@ -1147,7 +1147,7 @@ msgstr ""
 
 #: src/uml/syntax/type.md:28
 msgid "`String`"
-msgstr ""
+msgstr "`String`"
 
 #: src/uml/syntax/type.md:30
 msgid "字符串. 用双引号括起来的文本, 用于表示按钮行为, 颜色, URL, 具体如下:"
@@ -1161,31 +1161,31 @@ msgstr ""
 
 #: src/uml/syntax/type.md:33
 msgid "`\"white\"`"
-msgstr ""
+msgstr "`\"white\"`"
 
 #: src/uml/syntax/type.md:34
 msgid "`\"black\"`"
-msgstr ""
+msgstr "`\"black\"`"
 
 #: src/uml/syntax/type.md:35
 msgid "`\"red\"`"
-msgstr ""
+msgstr "`\"red\"`"
 
 #: src/uml/syntax/type.md:36
 msgid "`\"blue\"`"
-msgstr ""
+msgstr "`\"blue\"`"
 
 #: src/uml/syntax/type.md:37
 msgid "`\"yellow\"`"
-msgstr ""
+msgstr "`\"yellow\"`"
 
 #: src/uml/syntax/type.md:38
 msgid "`\"green\"`"
-msgstr ""
+msgstr "`\"green\"`"
 
 #: src/uml/syntax/type.md:39
 msgid "`\"gray\"`"
-msgstr ""
+msgstr "`\"gray\"`"
 
 #: src/uml/syntax/type.md:40
 msgid "`Action`: 按钮行为. 可用的值有:"
@@ -1839,6 +1839,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "blank.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 
 #: src/uml/advanced/page_switch.md:47
 msgid ""
@@ -1867,6 +1869,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "right_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"right_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:78 src/uml/advanced/page_switch.md:86
 #: src/uml/advanced/page_switch.md:94 src/uml/advanced/page_switch.md:269
@@ -1875,6 +1879,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "left_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"left_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
 #: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
@@ -1882,6 +1888,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "up_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"up_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114
 #: src/uml/advanced/page_switch.md:295 src/uml/advanced/page_switch.md:305
@@ -1889,6 +1897,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "down_arrow.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"down_arrow.png\""
 
 #: src/uml/advanced/page_switch.md:119
 msgid "其中按钮 `id` 最后的编号表示按钮所在的页面."
@@ -1976,7 +1986,7 @@ msgstr ""
 
 #: src/dev-incident/6thpecjam.md:1
 msgid "6thPecJam"
-msgstr ""
+msgstr "6thPecJam"
 
 #: src/dev-incident/6thpecjam.md:3
 msgid ""
