@@ -2035,6 +2035,8 @@ msgid ""
 "\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
 "blank.png\""
 msgstr ""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
+"blank.png\""
 
 #: src/uml/advanced/page_switch.md:47
 msgid ""
