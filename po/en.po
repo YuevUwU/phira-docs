@@ -2662,7 +2662,7 @@ msgstr ""
 msgid ""
 "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 msgstr ""
-"`action` (optional): the click behavior of the button, see [datatype](.../"
+"`action` (optional): the click behavior of the button, see [datatype](../"
 "type.md#datatype) for possible values"
 
 #: src/uml/syntax/elements/btn.md:11
