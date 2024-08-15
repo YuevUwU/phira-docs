@@ -1666,8 +1666,8 @@ msgstr ""
 #: src/uml/syntax/variable.md:37
 msgid "但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变量."
 msgstr ""
-"However, some properties of the [button](./elements/btn.md) has some "
-"properties that need to be kept constant between frames, so global "
+"However, some properties of the [button](./elements/btn.md) "
+"need to be kept constant between frames, so global "
 "variables are needed."
 
 #: src/uml/syntax/element.md:3
@@ -1830,7 +1830,7 @@ msgstr ""
 #: src/uml/syntax/elements/btn.md:9
 msgid "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 msgstr ""
-"`action` (optional): the click behavior of the button, see [datatype](... "
+"`action` (optional): the click behavior of the button, see [datatype](..."
 "/type.md#datatype) for possible values"
 
 #: src/uml/syntax/elements/btn.md:11
@@ -1854,7 +1854,7 @@ msgstr ""
 
 #: src/uml/syntax/elements/btn.md:15
 msgid "`id.count`: 按钮被按下的次数"
-msgstr ""
+msgstr "`id.count`: the number of times the button has been pressed"
 
 #: src/uml/syntax/comment.md:4
 msgid ""
