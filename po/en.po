@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-12T06:17:38+08:00\n"
-"PO-Revision-Date: 2024-08-15 22:09+0800\n"
+"PO-Revision-Date: 2024-08-15 22:47+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -1673,135 +1673,184 @@ msgstr ""
 #: src/uml/syntax/element.md:3
 msgid "元素是活动界面中的可视或可交互的对象, 定义方式如下:"
 msgstr ""
+"An element is a visual or interactive subject in an activity interface, it "
+"is defined in the following way:"
 
 #: src/uml/syntax/element.md:9
 msgid ""
 "其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元素的属性也各不相同, "
 "其中一些是必填, 会在介绍元素时具体标注."
 msgstr ""
+"where `type` is the type of the element, while `attrN` and `valueN` are the "
+"name and value of the attribute respectively. Attributes vary for different "
+"types of elements, some of which are required and will be specified when "
+"the element is introduced."
 
 #: src/uml/syntax/element.md:11
 msgid "元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动对应一个表示该元素绘制范围的 `Rect` 变量."
 msgstr ""
+"The `id` attribute of an element is an optional attribute common to all "
+"elements. When an element is defined, its `id` attribute automatically "
+"corresponds to a `Rect` variable that represents the extent to which the "
+"element is drawn."
 
 #: src/uml/syntax/element.md:13
 msgid "后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
 msgstr ""
+"The `{ Hello }` at the end is optional and represents the text content of "
+"the element. It is only valid for `p` (paragraph elements)."
 
 #: src/uml/syntax/elements/p.md:9 src/uml/syntax/elements/img.md:7
 #: src/uml/syntax/elements/col.md:7 src/uml/syntax/elements/btn.md:7
 msgid "`id`(选填): 元素 ID"
-msgstr ""
+msgstr "`id` (optional): element ID"
 
 #: src/uml/syntax/elements/p.md:10
 msgid "`x`(选填, 默认为 `0`): 文本 `x` 坐标"
-msgstr ""
+msgstr "`x`(optional, default is `0`): `x` coordinate of text"
 
 #: src/uml/syntax/elements/p.md:11
 msgid "`y`(选填, 默认为 `0`): 文本 `y` 坐标"
-msgstr ""
+msgstr "`y`(optional, default is `0`): `y` coordinate of text"
 
 #: src/uml/syntax/elements/p.md:12
 msgid ""
 "`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标左对齐, 为 `1` "
 "时右对齐, `0.5` 时居中"
 msgstr ""
+"`ax` (optional, default is `0`): horizontal alignment of text, floating "
+"point number between `[0, 1]`. When it is `0`, it will be left aligned "
+"according to the `x` coordinate; When it is `1` it will be right aligned; "
+"When it is '0.5', text is centered."
 
 #: src/uml/syntax/elements/p.md:13
 msgid "`ay`(选填, 默认为 `0`): 文本纵向对齐, 具体意义同上"
 msgstr ""
+"`ay` (optional, default is `0`): vertical alignment of text, the "
+"description is the same as above"
 
 #: src/uml/syntax/elements/p.md:14
 msgid "`size`(选填, 默认为 `1`): 文本大小"
-msgstr ""
+msgstr "`size`(optional, default `1`): the size of the text."
 
 #: src/uml/syntax/elements/p.md:15
 msgid "`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
 msgstr ""
+"`ml`(optional, default `false`): whether the text will be rendered in "
+"multiple lines, only valid if `mw` is set."
 
 #: src/uml/syntax/elements/p.md:16
 msgid "`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将自动换行"
 msgstr ""
+"`mw`(optional): maximum text width. In single-line mode, text beyond the "
+"range will be omitted; In multi-line mode, it will be automatically wrapped."
 
 #: src/uml/syntax/elements/p.md:17
 msgid "`bl`(选填, 默认为 `true`): 纵向对齐时是否按照基准线对齐"
 msgstr ""
+"`bl`(optional, default is `true`): whether to align according to the "
+"baseline when aligning vertically."
 
 #: src/uml/syntax/elements/p.md:18
 msgid "`c`(选填, 默认为 `\"white\"`): 文本颜色"
-msgstr ""
+msgstr "c`(optional, default is `“white”`): text color"
 
 #: src/uml/syntax/elements/p.md:19
 msgid "`Text`(必填): 文本内容"
-msgstr ""
+msgstr "`Text` (required): text content"
 
 #: src/uml/syntax/elements/p.md:21
 msgid "`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形区域."
 msgstr ""
+"The position of `p` is not defined by a full rectangle, but you can still "
+"get the rectangular area of `p` by using its `id` attribute."
 
 #: src/uml/syntax/elements/img.md:8
 msgid "`url`(必填): 图片 URL, 用双引号括起来"
-msgstr ""
+msgstr "`url` (required): the image URL, enclosed in double quotes"
 
 #: src/uml/syntax/elements/img.md:9
 msgid "`r`(必填): 图片显示的位置矩形, 类型为 `Rect`"
 msgstr ""
+"`r` (required): the rectangle where the image will be displayed, type is "
+"`Rect`."
 
 #: src/uml/syntax/elements/img.md:10
 msgid "`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透明"
 msgstr ""
+"`c`(optional, default is `“white”`): the color to overlay on the image. If "
+"the color is translucent, the image will be translucent as well."
 
 #: src/uml/syntax/elements/img.md:11
 msgid "`t`(选填, 默认为 `cropCenter`): 图片的裁剪方式. 可选值有:"
 msgstr ""
+"`t`(optional, defaults to `cropCenter`): how the image will be cropped. "
+"Possible values are:"
 
 #: src/uml/syntax/elements/img.md:12
 msgid "`cropCenter`: 保持图片比例, 从图片中心裁剪，保证 `r` 被完全填满"
 msgstr ""
+"`cropCenter`: keep the image proportions, crop from the center of the "
+"image, and ensure that `r` is completely filled"
 
 #: src/uml/syntax/elements/img.md:13
 msgid "`inside`: 保持图片比例, 使图片完全显示在 `r` 中"
 msgstr ""
+"`inside`: keep the image proportions so that the image is completely "
+"displayed inside of `r`"
 
 #: src/uml/syntax/elements/img.md:14
 msgid "`fit`: 拉伸为 `r` 的大小"
-msgstr ""
+msgstr "`fit`: stretch to the size of `r`"
 
 #: src/uml/syntax/elements/col.md:8
 msgid "`cid`(必填): 谱面合集 ID"
-msgstr ""
+msgstr "`cid`(required): chart collection ID"
 
 #: src/uml/syntax/elements/col.md:9
 msgid "`r`(必填): 谱面合集显示的位置矩形, 类型为 `Rect`"
 msgstr ""
+"`r` (required): the rectangle where the chart collection will be displayed, "
+"type is `Rect`."
 
 #: src/uml/syntax/elements/col.md:10
 msgid "`rn`(选填, 默认为 `4`): 一行显示的谱面数"
-msgstr ""
+msgstr "`rn`(optional, default is `4`): the number of charts displayed in one line"
 
 #: src/uml/syntax/elements/col.md:11
 msgid "`rh`(选填, 默认为 `0.3`): 谱面高度"
-msgstr ""
+msgstr "`rh` (optional, default is `0.3`): chart height"
 
 #: src/uml/syntax/elements/btn.md:8
 msgid "`r`(必填): 按钮显示的位置矩形, 类型为 `Rect`"
 msgstr ""
+"`r` (required): the rectangle where the button will be displayed, type is "
+"`Rect`."
 
 #: src/uml/syntax/elements/btn.md:9
 msgid "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 msgstr ""
+"`action` (optional): the click behavior of the button, see [datatype](... "
+"/type.md#datatype) for possible values"
 
 #: src/uml/syntax/elements/btn.md:11
 msgid "在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下属性:"
 msgstr ""
+"After an element is defined, its `id` attribute, in addition to the `Rect` "
+"variable representing the drawing range of the element, also has the "
+"following attributes:"
 
 #: src/uml/syntax/elements/btn.md:13
 msgid "`id.pressing`: 按钮是否正在被按下, 被按下时值为 `1`, 否则为 `0`"
 msgstr ""
+"`id.pressing`: whether the button is being pressed, `1` if pressed, `0` "
+"otherwise"
 
 #: src/uml/syntax/elements/btn.md:14
 msgid "`id.last`: 按钮上次被按下的时刻, 从未被按下时值为 `-1`"
 msgstr ""
+"`id.last`: the last time the button was pressed. If it has never been "
+"pressed, the value is `-1`."
 
 #: src/uml/syntax/elements/btn.md:15
 msgid "`id.count`: 按钮被按下的次数"
