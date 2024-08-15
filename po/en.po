@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-12T06:17:38+08:00\n"
-"PO-Revision-Date: 2024-05-21 22:06+0800\n"
+"PO-Revision-Date: 2024-08-15 22:09+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
@@ -165,7 +165,7 @@ msgstr "Advanced skills"
 
 #: src/SUMMARY.md:56 src/uml/advanced/page_switch.md:1
 msgid "页面切换"
-msgstr "Page Switch"
+msgstr "Page Change"
 
 #: src/SUMMARY.md:58
 msgid "Phira 构建指南"
@@ -1578,40 +1578,52 @@ msgstr "`clamp(x, min, max)`: Clamp `x` between `min` and `max`"
 #: src/uml/syntax/expression.md:41
 msgid "其中三角函数和反三角函数使用弧度制."
 msgstr ""
+"The radian system is used for both trigonometric and inverse trigonometric "
+"functions."
 
 #: src/uml/syntax/variable.md:3
 msgid "变量是 UML 中可以被读取或者写入的值, 定义方式如下:"
 msgstr ""
+"Variables are values that can be read or written in UML and are defined as "
+"follows:"
 
 #: src/uml/syntax/variable.md:9
 msgid ""
 "定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的值, 或结果是 `Float` "
 "或 `Rect` 类型的表达式."
 msgstr ""
+"The above defines a variable `name`, whose value is `value`. `value` can be "
+"a value of type `Float` or `Rect`, or an expression that results in a value "
+"of type `Float` or `Rect`."
 
 #: src/uml/syntax/variable.md:11
 msgid "变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建元素或定义其他变量时使用这个变量."
 msgstr ""
+"Variables can be defined repeatedly, but only the value of the last "
+"definition will be used. After defining a variable, you can use it when "
+"creating new elements or defining other variables."
 
 #: src/uml/syntax/variable.md:15
 msgid "UML 内置了如下变量:"
-msgstr ""
+msgstr "UML has the following built-in variables:"
 
 #: src/uml/syntax/variable.md:17
 msgid "`t`: 当前时间, 单位为秒"
-msgstr ""
+msgstr "`t`: current time in seconds"
 
 #: src/uml/syntax/variable.md:18
 msgid "`top`: 实际高度与实际宽度之比"
-msgstr ""
+msgstr "`top`: ratio of actual height to actual width"
 
 #: src/uml/syntax/variable.md:19
 msgid "`o`: 滑动距离"
-msgstr ""
+msgstr "`o`: sliding distance"
 
 #: src/uml/syntax/variable.md:20
 msgid "`joined`: 是否已经参与了该活动, 参与了时值为 `1`, 否则为 `0`"
 msgstr ""
+"`joined`: whether the activity has been joined, `1` if joined, `0` "
+"otherwise."
 
 #: src/uml/syntax/variable.md:21
 msgid "`$h`: 用户能滚动的最大高度, 通过设置该变量的值来限制用户的滚动范围"
@@ -1624,26 +1636,39 @@ msgid ""
 "UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻来为页面添加动态效果, 如动画, "
 "换页等."
 msgstr ""
+"UML does not have event functionality. You can use `t`, `o` and the time of "
+"[button](./elements/btn.md) press to add dynamic effects to the page, such "
+"as animation, page change, etc."
 
 #: src/uml/syntax/variable.md:25
 msgid "全局变量"
-msgstr ""
+msgstr "Global variable"
 
 #: src/uml/syntax/variable.md:27
 msgid "全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式如下:"
 msgstr ""
+"Global variables are variables that can be read or written anywhere in the "
+"UML file. Global variables are defined as follows:"
 
 #: src/uml/syntax/variable.md:33
 msgid "其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只有最后一次定义的值会被使用."
 msgstr ""
+"where `type` can only be `btn`. After that, you can still write into global "
+"variables by using the `let` keyword, only the last defined value will be "
+"used."
 
 #: src/uml/syntax/variable.md:35
 msgid "活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
 msgstr ""
+"The activity interface is redrawn at every frame, which means that UML "
+"recalculates the values of all variables at every frame."
 
 #: src/uml/syntax/variable.md:37
 msgid "但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变量."
 msgstr ""
+"However, some properties of the [button](./elements/btn.md) has some "
+"properties that need to be kept constant between frames, so global "
+"variables are needed."
 
 #: src/uml/syntax/element.md:3
 msgid "元素是活动界面中的可视或可交互的对象, 定义方式如下:"
