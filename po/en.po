@@ -2087,14 +2087,12 @@ msgid "UML 文档"
 msgstr "UML documentation"
 
 #: src/uml/index.md:3
-#, fuzzy
 msgid "UML 文件是 UI 描述文件, 可以用来创建于代码解耦的可定制界面."
 msgstr ""
 "UML files are UI modelling files that can be used to create customizable "
 "interfaces that are decoupled from the code. "
 
 #: src/uml/syntax/index.md:3
-#, fuzzy
 msgid ""
 "UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句"
 "构成, 每个元素占据一或多行."
