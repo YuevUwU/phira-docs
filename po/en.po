@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: Phira Documents\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-18T03:34:36+08:00\n"
-"PO-Revision-Date: 2024-08-15 22:47+0800\n"
+"PO-Revision-Date: 2024-08-29 13:08+0800\n"
 "Last-Translator: PingTKP <75591605+PingTKP@users.noreply.github.com>\n"
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
@@ -239,13 +239,13 @@ msgstr "Phira-docs Instruction"
 
 #: src/index.md:3
 msgid ""
-"这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/"
-"phira-docs) 提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`]"
-"(./en/)"
+"这里是 Phira 相关的文档说明, 可前往 [GitHub](https://github.com/TeamFlos/phira-docs) "
+"提出问题或者贡献文档, 其他语言请通过修改 url 来访问, 如 [`/en/`](./en/)"
 msgstr ""
-"This is the instruction of Phira-related documentation, visit [GitHub]"
-"(https://github.com/TeamFlos/phira-docs) to submit feedbacks or contribute, "
-"read in other language by editing the url, for example [`/en/`](./en/)"
+"This is the instruction of Phira-related documentation, visit "
+"[GitHub](https://github.com/TeamFlos/phira-docs) to submit feedbacks or "
+"contribute, read in other language by editing the url, for example "
+"[`/en/`](./en/)"
 
 #: src/index.md:5
 msgid "如果希望提供翻译, 请参考"
@@ -253,38 +253,42 @@ msgstr "If you’re willing to provide translation, please refer to"
 
 #: src/index.md:7
 msgid ""
-"[mdbook-i18n-helpers 的指引](https://github.com/google/mdbook-i18n-helpers/"
-"blob/main/i18n-helpers/USAGE.md)"
+"[mdbook-i18n-helpers "
+"的指引](https://github.com/google/mdbook-i18n-helpers/blob/main/i18n-helpers/"
+"USAGE.md)"
 msgstr ""
-"[Instructions in mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-"
-"helpers/blob/main/i18n-helpers/USAGE.md)"
+"[Instructions in "
+"mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers/blob/"
+"main/i18n-helpers/USAGE.md)"
 
 #: src/index.md:8
 msgid ""
-"[comprehensive-rust 的示例](https://github.com/google/comprehensive-rust/"
-"blob/main/TRANSLATIONS.md)"
+"[comprehensive-rust "
+"的示例](https://github.com/google/comprehensive-rust/blob/main/TRANSLATIONS.md)"
 msgstr ""
-"[Examples in comprehensive-rust](https://github.com/google/comprehensive-"
-"rust/blob/main/TRANSLATIONS.md)"
+"[Examples in "
+"comprehensive-rust](https://github.com/google/comprehensive-rust/blob/main/"
+"TRANSLATIONS.md)"
 
 #: src/index.md:10
 msgid ""
-"在 PR 内提供相应的翻译后 `.po` 文件, 并在 `.github/mdbook.yml` 的 `env` 的 "
-"`LANGUAGES` 中添加对应的语言, 语言代码见 [ISO 639](https://en.wikipedia.org/"
-"wiki/List_of_ISO_639_language_codes)"
+"在 PR 内提供相应的翻译后 `.po` 文件, 并在 `.github/mdbook.yml` 的 `env` 的 `LANGUAGES` "
+"中添加对应的语言, 语言代码见 [ISO "
+"639](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)"
 msgstr ""
 "Provide the translated `.po` file in the Pull Request, and add the "
-"corresponding language code in `LANGUAGES` in `env` in the `.github/mdbook."
-"yml` file, visit [ISO 639](https://en.wikipedia.org/wiki/"
-"List_of_ISO_639_language_codes) for language code reference"
+"corresponding language code in `LANGUAGES` in `env` in the "
+"`.github/mdbook.yml` file, visit [ISO "
+"639](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) for "
+"language code reference"
 
 # "在测试群或频道中找到资源包" is not translated because at that time there is no phira discord server and alot of the players are unable to access QQ. So I left the translation out.
 # by PingTKP
 #: src/respack/index.md:3
 msgid ""
-"在 prpr 中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等"
-"等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具"
-"体阐述资源包的文件结构。"
+"在 prpr "
+"中，你可以自定义资源包。资源包包含了音符的样式、粒子效果、打击音效等等元素。你可以在测试群或频道中找到资源包，也可以选择自己制作资源包。以下将具体阐述资"
+"源包的文件结构。"
 msgstr ""
 "In prpr, you can customize the respack. The respack consists of how the "
 "notes look, particle effects, hit sound effects, etc. You can find premade "
@@ -296,13 +300,11 @@ msgid "结构"
 msgstr "Structure"
 
 #: src/respack/index.md:7
-msgid ""
-"资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其"
-"中，资源文件有些是必须存在，有些则是可选的。"
+msgid "资源包是单个 zip 压缩文件，其中包含了配置文件 `info.yml` 和其他的资源文件。其中，资源文件有些是必须存在，有些则是可选的。"
 msgstr ""
-"A Respack is a single zip archive containing the configuration file `info."
-"yml` and other resource files. Some of the resource files are required and "
-"some are optional."
+"A Respack is a single zip archive containing the configuration file "
+"`info.yml` and other resource files. Some of the resource files are "
+"required and some are optional."
 
 #: src/respack/index.md:9
 msgid "资源文件"
@@ -411,25 +413,24 @@ msgstr "`description`: The description/introduction of the respack."
 
 #: src/respack/index.md:39
 msgid ""
-"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要"
-"指定这张图中横竖各有几帧，例如，在 [此图](image/hit_fx.jpg) 中横、竖的帧数分"
-"别为 5 与 6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背"
-"景，但在制作资源包时应当使用透明背景）；"
+"`hitFx`：打击特效宽、高的帧数。打击特效是将多帧动画存储在一张图中的，因此需要指定这张图中横竖各有几帧，例如，在 "
+"[此图](image/hit_fx.jpg) 中横、竖的帧数分别为 5 与 "
+"6（最后一行不太看得见，但是是存在的）（图片为了便于辨识使用了黑色背景，但在制作资源包时应当使用透明背景）；"
 msgstr ""
 "`hitFx`: The frame count of the width and height of the hit effect. Hit "
 "effects are stored as multiple frames in a single image, thus, it is "
 "necessary to specify the number of horizontal and vertical frames in the "
 "image. For example, in [this image](image/hit_fx.jpg), the horizontal and "
 "vertical frame count is 5 and 6 respectively (the last row is not very "
-"visible, but it is present there) (the image uses a black background for the "
-"ease of viewing, but a transparent background should be used when creating a "
-"respack)."
+"visible, but it is present there) (the image uses a black background for "
+"the ease of viewing, but a transparent background should be used when "
+"creating a respack)."
 
 #: src/respack/index.md:40
 msgid ""
-"`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别"
-"为 Hold 的尾部、中间和头部。而 `holdAtlas` 的两个数字则分别指定了图片中尾部和"
-"头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 像素。"
+"`holdAtlas`：Hold 贴图的尾、头高度。Hold 的皮肤是 **一张图片**，从上到下分别为 Hold 的尾部、中间和头部。而 "
+"`holdAtlas` 的两个数字则分别指定了图片中尾部和头部的高度。例如，在 [此图](image/hold.png) 中，尾部和头部高度均为 50 "
+"像素。"
 msgstr ""
 "`holdAtlas`: The height of the tail and head of the hold image. The note "
 "skin of the hold is **an image**, it has the tail section, middle section "
@@ -456,14 +457,13 @@ msgstr ""
 
 #: src/respack/index.md:46
 msgid "`hitFxScale`（小数，默认 `1.0`）：打击特效缩放比例；"
-msgstr ""
-"`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
+msgstr "`hitFxScale` (float, default value: `1.0`): The scale of the hit effect."
 
 #: src/respack/index.md:47
 msgid "`hitFxRotate`（布尔值，默认 `false`）：打击特效是否随 Note 旋转；"
 msgstr ""
-"`hitFxRotate` (bool, default value: `false`): Whether the hit effect rotates "
-"with the note."
+"`hitFxRotate` (bool, default value: `false`): Whether the hit effect "
+"rotates with the note."
 
 #: src/respack/index.md:48
 msgid "`hitFxTinted`（布尔值，默认 `true`）：打击特效是否依照判定线颜色着色；"
@@ -485,86 +485,83 @@ msgstr ""
 
 #: src/respack/index.md:51
 msgid ""
-"`holdRepeat`（布尔值，默认 `false`）：Hold 的中间部分是否采用重复式拉伸。[这"
-"里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
+"`holdRepeat`（布尔值，默认 `false`）：Hold "
+"的中间部分是否采用重复式拉伸。[这里的三张图](image/hold_repeat.jpg) 从左到右依次是 Hold 资源图、不启用 "
 "`holdRepeat` 时的长条和启用 `holdRepeat` 时的长条；"
 msgstr ""
 "`holdRepeat` (bool. default value: `false`): Whether the middle section of "
-"the hold is repetitively stretched. [The below shows 3 images](image/"
-"hold_repeat.jpg), the hold’s image on the left, the image of how the hold "
-"will look like when `holdRepeat` is false on the middle, and the image of "
-"how the hold will look like when `holdRepeat` is true on the right."
+"the hold is repetitively stretched. [The below shows 3 "
+"images](image/hold_repeat.jpg), the hold’s image on the left, the image of "
+"how the hold will look like when `holdRepeat` is false on the middle, and "
+"the image of how the hold will look like when `holdRepeat` is true on the "
+"right."
 
 #: src/respack/index.md:52
 msgid ""
-"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重"
-"叠。还是用上面的 [示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效"
-"果就会是左边第一张图，Hold 的头尾是和中间隔开的；而右边两张图都是开启了 "
-"`holdCompact` 的效果；"
+"`holdCompact`（布尔值，默认 `false`）：是否把 Hold 的头部和尾部与 Hold 中间重叠。还是用上面的 "
+"[示例](image/hold_repeat.jpg)，如果不开启 `holdCompact`，效果就会是左边第一张图，Hold "
+"的头尾是和中间隔开的；而右边两张图都是开启了 `holdCompact` 的效果；"
 msgstr ""
 "`holdCompact` (bool, default value: `false`): Whether to overlap the hold’s "
-"head and tail section with the middle section. Using the previous [example]"
-"(image/hold_repeat.jpg), if `holdCompact` is false, the hold will look like "
-"the image on the left, you can see that the tail and head section are "
-"separated from the middle section. If `holdCompact` is true, the hold will "
-"look like the image on the middle and right."
+"head and tail section with the middle section. Using the previous "
+"[example](image/hold_repeat.jpg), if `holdCompact` is false, the hold will "
+"look like the image on the left, you can see that the tail and head section "
+"are separated from the middle section. If `holdCompact` is true, the hold "
+"will look like the image on the middle and right."
 
 #: src/respack/index.md:53
-msgid ""
-"`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下"
-"的判定线颜色；"
+msgid "`colorPerfect`（十六进制颜色代码，默认 `0xe1ffec9f`）：AP（全 Perfect）情况下的判定线颜色；"
 msgstr ""
 "`colorPerfect` (Hexadecimal color code, default value: `0xe1ffec9f`): The "
 "color of the judgement line when it is still AP (All Perfect)."
 
 #: src/respack/index.md:54
-msgid ""
-"`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线"
-"颜色。"
+msgid "`colorGood`（十六进制颜色代码，默认 `0xebb4e1ff`）：FC（全连）情况下的判定线颜色。"
 msgstr ""
-"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The color "
-"of the judgement line when it is still FC (Full Combo)."
+"`colorGood` (Hexadecimal color code, default value: `0xebb4e1ff`): The "
+"color of the judgement line when it is still FC (Full Combo)."
 
 #: src/chart-standard/index.md:1
 msgid "Phira 谱面标准"
-msgstr ""
+msgstr "Phira chart standard"
 
 #: src/chart-standard/index.md:3
 msgid "谱面基本结构"
-msgstr ""
+msgstr "Chart structure"
 
 #: src/chart-standard/index.md:5
-msgid ""
-"Phira 谱面包是一个压缩包, 解压后的压缩包内应当直接包含以下文件而非文件夹:"
+msgid "Phira 谱面包是一个压缩包, 解压后的压缩包内应当直接包含以下文件而非文件夹:"
 msgstr ""
+"Phira chart pack is a zip archive, the unzipped archive should contain the "
+"following files directly instead of folders:"
 
 #: src/chart-standard/index.md:7
 msgid "`info.yml`: 采用 YAML 格式的[谱面信息](./chartinfo.md)文件"
-msgstr ""
+msgstr "`info.yml`: [Chart info](./chartinfo.md) that uses YAML format"
 
 #: src/chart-standard/index.md:8
 msgid "...`info.yml` 中所指定的其他文件"
-msgstr ""
+msgstr "...Other files that are specified in `info.yml`"
 
 #: src/chart-standard/index.md:10
 msgid "各文件支持情况"
-msgstr ""
+msgstr "Support status of each file"
 
 #: src/chart-standard/index.md:12
 msgid "谱面文件"
-msgstr ""
+msgstr "Chart file"
 
 #: src/chart-standard/index.md:14
 msgid "见 [谱面文件格式](./chart-format/index.md)"
-msgstr ""
+msgstr "See [Chart file format](./chart-format/index.md)"
 
 #: src/chart-standard/index.md:16
 msgid "音乐文件"
-msgstr ""
+msgstr "Music file"
 
 #: src/chart-standard/index.md:18
 msgid "见 [音乐文件格式](./music.md)"
-msgstr ""
+msgstr "See [Music File Format](./music.md)"
 
 #: src/chart-standard/index.md:20 src/chart-standard/chartinfo.md:182
 msgid "TBD"
@@ -573,41 +570,58 @@ msgstr ""
 #: src/chart-standard/index.md:22 src/phira_build_guide/Windows.md:50
 #: src/phira_build_guide/Linux.md:29
 msgid "常见问题"
-msgstr ""
+msgstr "FAQ"
 
 #: src/chart-standard/index.md:24
 msgid ""
-"RPE 的谱面 JSON 文件存储了元数据(创作者, 难度, 名称等), 这一行为是**不被推荐"
-"**的, 这会导致这部分信息可能被重复记录, 从而导致不一致性. Phira 的行为以 "
-"`info.yml` 为准"
+"RPE 的谱面 JSON 文件存储了元数据(创作者, 难度, 名称等), 这一行为是**不被推荐**的, 这会导致这部分信息可能被重复记录, "
+"从而导致不一致性. Phira 的行为以 `info.yml` 为准"
 msgstr ""
+"RPE's chart JSON file stores metadata (charter, difficulty, name, etc.). "
+"Storing metadata like this is **not recommended** because it can lead to "
+"inconsistency as this information may be duplicated. Phira's metadata is "
+"based on `info.yml`."
 
 #: src/chart-standard/chartinfo.md:1
 msgid "谱面信息格式"
-msgstr ""
+msgstr "Chart information format"
 
 #: src/chart-standard/chartinfo.md:3
 msgid ""
-"谱面信息是一种 [元数据](https://zh.wikipedia.org/wiki/"
-"%E5%85%83%E6%95%B0%E6%8D%AE) , 用于描述谱面数据之外的的基本信息, 例如作者, 插"
-"图, 音乐信息等."
+"谱面信息是一种 [元数据](https://zh.wikipedia.org/wiki/%E5%85%83%E6%95%B0%E6%8D%AE) , "
+"用于描述谱面数据之外的的基本信息, 例如作者, 插图, 音乐信息等."
 msgstr ""
+"Beat information is a kind of "
+"[metadata](https://en.wikipedia.org/wiki/Metadata), used to describe basic "
+"information other than chart data, such as charter, illustration, music "
+"information, etc."
 
 #: src/chart-standard/chartinfo.md:5
 msgid ""
-"谱面信息存在两种变体, [`ChartInfo`](https://github.com/TeamFlos/phira/"
-"blob/207c4724146c5a48c4e304d6e20447a39a72e0d3/prpr/src/info.rs#L17) 和 "
-"[`BriefChartInfo`](https://github.com/TeamFlos/phira/"
-"blob/207c4724146c5a48c4e304d6e20447a39a72e0d3/phira/src/data.rs#L21), 谱面信"
-"息 (`ChartInfo`) 的存储采用 YAML 格式, 谱面的 `info.yml` 文件即为 "
-"`ChartInfo` 的实例"
+"谱面信息存在两种变体, "
+"[`ChartInfo`](https://github.com/TeamFlos/phira/blob/207c4724146c5a48c4e304"
+"d6e20447a39a72e0d3/prpr/src/info.rs#L17) 和 "
+"[`BriefChartInfo`](https://github.com/TeamFlos/phira/blob/207c4724146c5a48c4"
+"e304d6e20447a39a72e0d3/phira/src/data.rs#L21), 谱面信息 (`ChartInfo`) 的存储采用 "
+"YAML 格式, 谱面的 `info.yml` 文件即为 `ChartInfo` 的实例"
 msgstr ""
+"There are two variants of chart information, "
+"[`ChartInfo`](https://github.com/TeamFlos/phira/blob/207c4724146c5a48c4e304"
+"d6e20447a39a72e0d3/prpr/src/info.rs#L17) and "
+"[`BriefChartInfo`](https://github.com/TeamFlos/phira/blob/207c4724146c5a48c4"
+"e304d6e20447a39a72e0d3/phira/src/data.rs#L21),  Chart information "
+"(`ChartInfo`) is stored in YAML format,  and the chart's `info.yml` file is "
+"an example of `ChartInfo`."
 
 #: src/chart-standard/chartinfo.md:7
 msgid ""
-"本地导入时会自动填充 `ChartInfo` 的所有字段, 但 YAML 格式本身并不难懂, 若希望"
-"填写好后一并打包导入来节省时间, 则需要注意以下字段的填写"
+"本地导入时会自动填充 `ChartInfo` 的所有字段, 但 YAML 格式本身并不难懂, 若希望填写好后一并打包导入来节省时间, "
+"则需要注意以下字段的填写"
 msgstr ""
+"All fields of `ChartInfo` will be automatically filled in when imported "
+"locally, but the YAML format itself is not difficult to understand. If you "
+"want to save time by filling in the fields and then packaging and importing "
+"them together, you need to pay attention to filling in the following fields."
 
 #: src/chart-standard/chartinfo.md:9
 msgid "`ChartInfo`"
@@ -615,326 +629,364 @@ msgstr ""
 
 #: src/chart-standard/chartinfo.md:11
 msgid ""
-"请参考[源代码](https://github.com/TeamFlos/phira/blob/main/prpr/src/info.rs)"
-"中的定义, 可能存在更新"
+"请参考[源代码](https://github.com/TeamFlos/phira/blob/main/prpr/src/info.rs)中的定义, "
+"可能存在更新"
 msgstr ""
+"Please refer to the definition in the [source "
+"code](https://github.com/TeamFlos/phira/blob/main/prpr/src/info.rs) as "
+"there may be updates to it."
 
 #: src/chart-standard/chartinfo.md:13
 msgid "谱面 ID `id`"
-msgstr ""
+msgstr "Chart ID `id`"
 
 #: src/chart-standard/chartinfo.md:15 src/chart-standard/chartinfo.md:23
 msgid "不必需, `i32` 整数, 默认为空"
-msgstr ""
+msgstr "Not required, `i32` integer, empty by default"
 
 #: src/chart-standard/chartinfo.md:17
-msgid ""
-"用于标识谱面的唯一 ID, 与服务器中的 ID 保持一致, Phira 客户端会根据此 ID 来判"
-"断是否需要更新谱面"
+msgid "用于标识谱面的唯一 ID, 与服务器中的 ID 保持一致, Phira 客户端会根据此 ID 来判断是否需要更新谱面"
 msgstr ""
+"A unique ID that identifies the chart, it is consistent with the ID in the "
+"server, and is used by the Phira client to determine if the chart needs to "
+"be updated."
 
 #: src/chart-standard/chartinfo.md:19 src/chart-standard/chartinfo.md:27
 msgid "本地谱面该项为空"
-msgstr ""
+msgstr "This field should be left empty if the chart is local."
 
 #: src/chart-standard/chartinfo.md:21
 msgid "上传者 ID `uploader`"
-msgstr ""
+msgstr "Uploader ID `uploader`"
 
 #: src/chart-standard/chartinfo.md:25
-msgid ""
-"用于标识上传者的唯一 ID, 与服务器中的 ID 保持一致, 用于显示在线谱面的上传者信"
-"息"
+msgid "用于标识上传者的唯一 ID, 与服务器中的 ID 保持一致, 用于显示在线谱面的上传者信息"
 msgstr ""
+"A unique ID that identifies the uploader, consistent with the ID in the "
+"server, and is used to display information about the uploader of an online "
+"chart."
 
 #: src/chart-standard/chartinfo.md:29
 msgid "谱面名称 `name`"
-msgstr ""
+msgstr "Chart name `name`"
 
 #: src/chart-standard/chartinfo.md:31 src/chart-standard/chartinfo.md:49
 #: src/chart-standard/chartinfo.md:55 src/chart-standard/chartinfo.md:61
 msgid "必需, `String` 字符串, 默认为 \"UK\""
-msgstr ""
+msgstr "Required, `String` string, default is \"UK\""
 
 #: src/chart-standard/chartinfo.md:33
 msgid "谱面的名称"
-msgstr ""
+msgstr "The name of the chart"
 
 #: src/chart-standard/chartinfo.md:35
 msgid "难度 `difficulty`"
-msgstr ""
+msgstr "Difficulty `difficulty`"
 
 #: src/chart-standard/chartinfo.md:37
 msgid "必需, `f32` 浮点数, 默认为 10.0"
-msgstr ""
+msgstr "Required, `f32` float, default is 10.0"
 
 #: src/chart-standard/chartinfo.md:39
 msgid "谱面的难度, 别乱来哈"
-msgstr ""
+msgstr "The difficulty of the chart, do not go crazy with this"
 
 #: src/chart-standard/chartinfo.md:41
 msgid "难度等级 `level`"
-msgstr ""
+msgstr "Difficulty level `level`"
 
 #: src/chart-standard/chartinfo.md:43
 msgid "必需, `String` 字符串, 默认为 \"UK Lv.10\""
-msgstr ""
+msgstr "Required, `String` string, default is \"UK Lv.10\""
 
 #: src/chart-standard/chartinfo.md:45
 msgid "显示在游玩时屏幕右下角的难度等级"
 msgstr ""
+"Displays the difficulty level in the lower right corner of the screen "
+"during play."
 
 #: src/chart-standard/chartinfo.md:47
 msgid "谱面作者 `charter`"
-msgstr ""
+msgstr "Charter `charter`"
 
 #: src/chart-standard/chartinfo.md:51
 msgid "这谱谁写的.jpg"
-msgstr ""
+msgstr "who_wrote_this_chart.jpg"
 
 #: src/chart-standard/chartinfo.md:53
 msgid "音乐作者 `composer`"
-msgstr ""
+msgstr "Composer `composer`"
 
 #: src/chart-standard/chartinfo.md:57
 msgid "音乐的作者"
-msgstr ""
+msgstr "The music composer"
 
 #: src/chart-standard/chartinfo.md:59
 msgid "插图作者 `illustrator`"
-msgstr ""
+msgstr "Illustrator `illustrator`"
 
 #: src/chart-standard/chartinfo.md:63
 msgid "谱面的插图作者"
-msgstr ""
+msgstr "The illustrator of the chart's illustration"
 
 #: src/chart-standard/chartinfo.md:65
 msgid "谱面文件名 `chart`"
-msgstr ""
+msgstr "Chart file name `chart`"
 
 #: src/chart-standard/chartinfo.md:67
 msgid "必需, `String` 字符串, 默认为 \"chart.json\""
-msgstr ""
+msgstr "Required, `String` string, default is \"chart.json\""
 
 #: src/chart-standard/chartinfo.md:69
-msgid ""
-"谱面文件的文件名, RPE 生成的谱面通常为 `chart.json`, PE 生成的谱面通常为 "
-"`xxx.pec`"
+msgid "谱面文件的文件名, RPE 生成的谱面通常为 `chart.json`, PE 生成的谱面通常为 `xxx.pec`"
 msgstr ""
+"The name of the chart file, chart generated by RPE is usually `chart.json`, "
+"chart generated by PE is usually `xxx.pec`"
 
 #: src/chart-standard/chartinfo.md:71
 msgid "谱面格式 `format`"
-msgstr ""
+msgstr "Chart format `format`"
 
 #: src/chart-standard/chartinfo.md:73
 msgid ""
-"不必需, [`ChartFormat`](https://github.com/TeamFlos/phira/blob/"
-"dad7d6f3a8535cabfb70ec3f954d774948c440f9/prpr/src/info.rs#L7) 枚举, 默认为空"
+"不必需, "
+"[`ChartFormat`](https://github.com/TeamFlos/phira/blob/dad7d6f3a8535cabfb70"
+"ec3f954d774948c440f9/prpr/src/info.rs#L7) 枚举, 默认为空"
 msgstr ""
+"Not required, "
+"[`ChartFormat`](https://github.com/TeamFlos/phira/blob/dad7d6f3a8535cabfb70"
+"ec3f954d774948c440f9/prpr/src/info.rs#L7) enum, empty by default"
 
 #: src/chart-standard/chartinfo.md:75
-msgid ""
-"谱面的格式, 不应当手动填写, 由 Phira 客户端自动识别并写入, 出于完整性需求在这"
-"里列出"
+msgid "谱面的格式, 不应当手动填写, 由 Phira 客户端自动识别并写入, 出于完整性需求在这里列出"
 msgstr ""
+"The format of the chart, which should not be filled in manually. It is "
+"automatically recognized and written by the Phira client, and is listed "
+"here for completeness."
 
 #: src/chart-standard/chartinfo.md:77
 msgid "音乐文件名 `music`"
-msgstr ""
+msgstr "Music file name `music`"
 
 #: src/chart-standard/chartinfo.md:79
 msgid "必需, `String` 字符串, 默认为 \"song.mp3\""
-msgstr ""
+msgstr "Required, `String` string, default is \"song.mp3\""
 
 #: src/chart-standard/chartinfo.md:81
 msgid "音乐文件的文件名"
-msgstr ""
+msgstr "The name of the music file"
 
 #: src/chart-standard/chartinfo.md:83
 msgid "插图文件名 `illustration`"
-msgstr ""
+msgstr "Illustration file name `illustration`"
 
 #: src/chart-standard/chartinfo.md:85
 msgid "必需, `String` 字符串, 默认为 \"background.png\""
-msgstr ""
+msgstr "Required, `String` string, default is \"background.png\""
 
 #: src/chart-standard/chartinfo.md:87
 msgid "插图文件的文件名"
-msgstr ""
+msgstr "The name of the illustration file"
 
 #: src/chart-standard/chartinfo.md:89
 msgid "解锁视频 `unlockVideo`"
-msgstr ""
+msgstr "Unlock video `unlockVideo`"
 
 #: src/chart-standard/chartinfo.md:91 src/chart-standard/chartinfo.md:138
 msgid "不必需, `String` 字符串, 默认为空"
-msgstr ""
+msgstr "Not required, `String` string, empty by default"
 
 #: src/chart-standard/chartinfo.md:93
 msgid "解锁该谱面的视频文件名"
-msgstr ""
+msgstr "The name of the video file that unlocks the chart"
 
 #: src/chart-standard/chartinfo.md:95
 msgid "预览开始时间 `previewStart`"
-msgstr ""
+msgstr "Preview start time `previewStart`"
 
 #: src/chart-standard/chartinfo.md:97 src/chart-standard/chartinfo.md:129
 msgid "必需, `f32` 浮点数, 默认为 0.0"
-msgstr ""
+msgstr "Required, `f32` float, default is 0.0"
 
 #: src/chart-standard/chartinfo.md:99
 msgid "音乐预览开始的时间(秒)"
-msgstr ""
+msgstr "The start time of the music preview in seconds"
 
 #: src/chart-standard/chartinfo.md:101
 msgid "预览结束时间 `previewEnd`"
-msgstr ""
+msgstr "Preview end time `previewEnd`"
 
 #: src/chart-standard/chartinfo.md:103
 msgid "不必需, `f32` 浮点数, 默认为空"
-msgstr ""
+msgstr "Not required, `f32` float, empty by default"
 
 #: src/chart-standard/chartinfo.md:105
-msgid ""
-"音乐预览结束的时间(秒), 留空则视为预览开始时间后 15.0 秒, 若超出结尾则会被截"
-"断"
+msgid "音乐预览结束的时间(秒), 留空则视为预览开始时间后 15.0 秒, 若超出结尾则会被截断"
 msgstr ""
+"The end time of the music preview in seconds, if left empty, the end time "
+"will be set to 15.0 seconds after the preview start time. If the end time "
+"exceeds the song length, the preview will be truncated."
 
 #: src/chart-standard/chartinfo.md:107
 msgid ""
-"源代码: [截断](https://github.com/TeamFlos/phira/blob/"
-"dad7d6f3a8535cabfb70ec3f954d774948c440f9/phira/src/scene/song.rs#L94)"
+"源代码: "
+"[截断](https://github.com/TeamFlos/phira/blob/dad7d6f3a8535cabfb70ec3f954d7749"
+"48c440f9/phira/src/scene/song.rs#L94)"
 msgstr ""
+"Source code "
+"[Truncate](https://github.com/TeamFlos/phira/blob/dad7d6f3a8535cabfb70ec3f95"
+"4d774948c440f9/phira/src/scene/song.rs#L94)"
 
 #: src/chart-standard/chartinfo.md:109
 msgid "纵横比 `aspectRatio`"
-msgstr ""
+msgstr "Aspect ratio `aspectRatio`"
 
 #: src/chart-standard/chartinfo.md:111
 msgid "必需, `f32` 浮点数, 默认为 16.0 / 9.0"
-msgstr ""
+msgstr "Required, `f32` float, default is 16.0 / 9.0"
 
 #: src/chart-standard/chartinfo.md:113
 msgid ""
-"注意: 谱面显示的纵横比, 设备的纵横比大于此值(例如部分加长手机, 或者一般手机上"
-"此值填写为 4:3)时会保证谱面处于该值的纵横比, 而小于此值时会拉伸谱面以保证谱面"
-"填满屏幕(来源: TBD)"
+"注意: 谱面显示的纵横比, 设备的纵横比大于此值(例如部分加长手机, 或者一般手机上此值填写为 4:3)时会保证谱面处于该值的纵横比, "
+"而小于此值时会拉伸谱面以保证谱面填满屏幕(来源: TBD)"
 msgstr ""
+"Note: The aspect ratio of the chart display. Devices with aspect ratios "
+"greater than this value (e.g., some elongated cell phones, or 4:3 on a "
+"typical cell phone) will ensure that the chart display is at this value of "
+"aspect ratio, while devices with aspect ratios less than this will stretch "
+"the chart display to ensure that the chart display fills the screen "
+"(Source: TBD)."
 
 #: src/chart-standard/chartinfo.md:115
 msgid "背景暗化程度 `backgroundDim`"
-msgstr ""
+msgstr "Background dimming level `backgroundDim`"
 
 #: src/chart-standard/chartinfo.md:117
 msgid "必需, `f32` 浮点数, 默认为 0.6"
-msgstr ""
+msgstr "Required, `f32` float, default is 0.6"
 
 #: src/chart-standard/chartinfo.md:119
 msgid "谱面背景的暗化程度, 单位待补充"
-msgstr ""
+msgstr "The dimming level of the background. Unit to be added later."
 
 #: src/chart-standard/chartinfo.md:121
 msgid "判定线长度 `lineLength`"
-msgstr ""
+msgstr "Judgement line length `lineLength`"
 
 #: src/chart-standard/chartinfo.md:123
 msgid "必需, `f32` 浮点数, 默认为 6.0"
-msgstr ""
+msgstr "Required, `f32` float, default is 6.0"
 
 #: src/chart-standard/chartinfo.md:125
 msgid "谱面中线条的长度, 单位待补充(涉及到渲染细节, 文档待补充)"
 msgstr ""
+"The length of the lines in the chart. Unit to be added (This involves "
+"rendering details, documentation to be added)."
 
 #: src/chart-standard/chartinfo.md:127
 msgid "谱面延迟 `offset`"
-msgstr ""
+msgstr "Chart offset `offset`"
 
 #: src/chart-standard/chartinfo.md:131
 msgid "谱面相对于音乐之间的时间延迟(秒), 即该值为正时相比于该值为零时:"
 msgstr ""
+"The time delay (in seconds) between the chart and the music, that is, when "
+"the value is positive compared to when the value is zero:"
 
 #: src/chart-standard/chartinfo.md:133
 msgid "若两种情况中音乐同时开始, 则 `offset` 为正时谱面开始更晚"
 msgstr ""
+"If the music starts at the same time in both cases, the chart starts later "
+"when `offset` is positive."
 
 #: src/chart-standard/chartinfo.md:134
 msgid "若两种情况中谱面同时开始, 则 `offset` 为正时音乐开始更早"
 msgstr ""
+"If the chart start at the same time in the two cases, the music starts "
+"earlier when `offset` is positive."
 
 #: src/chart-standard/chartinfo.md:136
 msgid "提示 `tip`"
-msgstr ""
+msgstr "Tip `tip`"
 
 #: src/chart-standard/chartinfo.md:140
 msgid "Tip: 不写的话会给你塞一条别的"
-msgstr ""
+msgstr "Tip: If left empty, you'll get a different tip."
 
 #: src/chart-standard/chartinfo.md:142
 msgid "标签 `tags`"
-msgstr ""
+msgstr "Tags `tags`"
 
 #: src/chart-standard/chartinfo.md:144
 msgid "必需, `String` 字符串数组, 默认为空"
-msgstr ""
+msgstr "Required, `String` string array, empty by default"
 
 #: src/chart-standard/chartinfo.md:146
 msgid "谱面的标签, 用于分类和搜索, 标签相关文档待补充"
 msgstr ""
+"Tags for a chart, used for categorization and searching, tags related "
+"documentation to be added"
 
 #: src/chart-standard/chartinfo.md:148
 msgid "简介 `intro`"
-msgstr ""
+msgstr "Introduction `intro`"
 
 #: src/chart-standard/chartinfo.md:150
 msgid "必需, `String` 字符串, 默认为空"
-msgstr ""
+msgstr "Required, `String` string, empty by default"
 
 #: src/chart-standard/chartinfo.md:152
 msgid "谱面的简介"
-msgstr ""
+msgstr "The introduction to the chart"
 
 #: src/chart-standard/chartinfo.md:154
+#, fuzzy
 msgid "长条选项 `holdPartialCover`"
-msgstr ""
+msgstr "Hold note options `holdPartialCover`"
 
 #: src/chart-standard/chartinfo.md:156
 msgid "必需, `bool` 布尔值, 默认为 false"
-msgstr ""
+msgstr "Required, `bool` boolean, false by default"
 
 #: src/chart-standard/chartinfo.md:158
 msgid "Hold 音符的一个渲染选项, 具体行为待补充"
-msgstr ""
+msgstr "A rendering option for Hold notes, behavior to be added."
 
 #: src/chart-standard/chartinfo.md:160
 msgid "创建时间 `created`"
-msgstr ""
+msgstr "Creation time `created`"
 
 #: src/chart-standard/chartinfo.md:162 src/chart-standard/chartinfo.md:168
 #: src/chart-standard/chartinfo.md:174
 msgid "不必需, `DateTime<Utc>` 可选的 UTC 时间, 默认为空"
-msgstr ""
+msgstr "Not required, `DateTime<Utc>` optional UTC time, empty by default"
 
 #: src/chart-standard/chartinfo.md:164
 msgid "谱面创建的时间, 不应当手动填写, 由 Phira 客户端自动写入"
 msgstr ""
+"The time when the chart was created, which should not be filled in "
+"manually, it will be automatically written by the Phira client."
 
 #: src/chart-standard/chartinfo.md:166
 msgid "更新时间 `updated`"
-msgstr ""
+msgstr "Update time `updated`"
 
 #: src/chart-standard/chartinfo.md:170
 msgid "本地谱面最近一次更新的时间, 不应当手动填写, 由 Phira 客户端自动写入"
 msgstr ""
+"The last update time of the local chart, which should not be filled in "
+"manually, it will be automatically written by the Phira client."
 
 #: src/chart-standard/chartinfo.md:172
 msgid "谱面更新时间 `chartUpdated`"
-msgstr ""
+msgstr "Chart update time `chartUpdated`"
 
 #: src/chart-standard/chartinfo.md:176
-msgid ""
-"云端谱面最近一次更新的时间, 不应当手动填写, 由 Phira 客户端自动写入. 用于判断"
-"是否需要更新谱面"
+msgid "云端谱面最近一次更新的时间, 不应当手动填写, 由 Phira 客户端自动写入. 用于判断是否需要更新谱面"
 msgstr ""
+"The last update time of the chart in the cloud, which should not be filled "
+"in manually, but is automatically written by the Phira client. This is used "
+"to determine if the spectrum needs to be updated"
 
 #: src/chart-standard/chartinfo.md:178
 msgid "`BriefChartInfo`"
@@ -942,9 +994,12 @@ msgstr ""
 
 #: src/chart-standard/chartinfo.md:180
 msgid ""
-"`BriefChartInfo` 是 `ChartInfo` 的一个简化版本, 用于在不需要详细信息的场景下"
-"使用. 以下是 `BriefChartInfo` 的主要字段:"
+"`BriefChartInfo` 是 `ChartInfo` 的一个简化版本, 用于在不需要详细信息的场景下使用. 以下是 "
+"`BriefChartInfo` 的主要字段:"
 msgstr ""
+"`BriefChartInfo` is a simplified version of `ChartInfo`, intended for use "
+"in scenarios where detailed information is not required. The following are "
+"the main fields of `BriefChartInfo`:"
 
 #: src/chart-standard/chart-format/index.md:3
 msgid "目前支持的谱面文件格式包括:"
@@ -963,9 +1018,7 @@ msgid "PBC 格式 (文档待完善)"
 msgstr ""
 
 #: src/chart-standard/chart-format/index.md:9
-msgid ""
-"格式的推断通过 `info.yml` 中的 `format` 字段进行, 若为空则通过文件内容进行推"
-"断."
+msgid "格式的推断通过 `info.yml` 中的 `format` 字段进行, 若为空则通过文件内容进行推断."
 msgstr ""
 
 #: src/chart-standard/chart-format/index.md:11
@@ -978,8 +1031,9 @@ msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:3
 msgid ""
-"在 RPE140 中，json 根节点下有一下内容：BPMList，META，judgeLineGroup，"
-"judgeLineList，multiLineString，multiScale，前四个比较常用"
+"在 RPE140 中，json "
+"根节点下有一下内容：BPMList，META，judgeLineGroup，judgeLineList，multiLineString，multiSca"
+"le，前四个比较常用"
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:5
@@ -987,8 +1041,7 @@ msgid "1.BPMList"
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:7
-msgid ""
-"这是一个数组，由若干个 bpm 组成，每个 bpm 的由一个数值和开始时间组成，示例："
+msgid "这是一个数组，由若干个 bpm 组成，每个 bpm 的由一个数值和开始时间组成，示例："
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:10
@@ -1080,9 +1133,7 @@ msgid "`Texture` 判定线纹理，一般为 `line.png`"
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:54
-msgid ""
-"`alphaControl` `posControl` `sizeControl` `skewControl` `yControl` 音符下落状"
-"态控制"
+msgid "`alphaControl` `posControl` `sizeControl` `skewControl` `yControl` 音符下落状态控制"
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:56
@@ -1095,8 +1146,8 @@ msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:60
 msgid ""
-"`extended` 扩展事件。其中包含 `inclineEvents`（倾斜），"
-"```scaleXEvents``scaleYEvents```（判定线伸缩）"
+"`extended` 扩展事件。其中包含 "
+"`inclineEvents`（倾斜），```scaleXEvents``scaleYEvents```（判定线伸缩）"
 msgstr ""
 
 #: src/chart-standard/chart-format/rpe/index.md:62
@@ -1153,8 +1204,8 @@ msgstr ""
 
 #: src/chart-standard/extra/index.md:3
 msgid ""
-"prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面"
-"特性。这些谱面特性目前只在 prpr 及基于其构建的客户端上可用。它们包括："
+"prpr 在支持 Phigros 官方谱面格式、`pec` 格式和 `rpe` 格式之外，加入了一些谱面特性。这些谱面特性目前只在 prpr "
+"及基于其构建的客户端上可用。它们包括："
 msgstr ""
 "prpr not only supports the official Phigros, 'pec', and 'rpe' chart format, "
 "but also added some unique features. These chart features can only be used "
@@ -1171,9 +1222,8 @@ msgstr "[Video Background](./video/index.md)"
 # Compressed file can be used instead of zip file as well
 #: src/chart-standard/extra/index.md:8
 msgid ""
-"关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特"
-"性，你需要手动编辑 JSON 文件。如果你不知道 JSON 是什么，请参阅 [JSON 教程]"
-"(http://c.biancheng.net/json/)。"
+"关于特性的配置需要全部存储在压缩包根目录的 `extra.json` 中。为了使用谱面特性，你需要手动编辑 JSON 文件。如果你不知道 JSON "
+"是什么，请参阅 [JSON 教程](http://c.biancheng.net/json/)。"
 msgstr ""
 "The configuration of chart features need to be saved in `extra.json` which "
 "can be found in the root directory of the zip file. In order to use the "
@@ -1185,11 +1235,10 @@ msgid "BPM 配置"
 msgstr "BPM Config"
 
 #: src/chart-standard/extra/index.md:12
-msgid ""
-"**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
+msgid "**在进行相关配置前，你需要在 `extra.json` 中预先设定好曲目的 BPM**。例如："
 msgstr ""
-"**Before making any configurations, you need to set the BPM of the song/"
-"track in `extra.json`**. For example:"
+"**Before making any configurations, you need to set the BPM of the "
+"song/track in `extra.json`**. For example:"
 
 #: src/chart-standard/extra/index.md:17 src/chart-standard/extra/index.md:18
 #: src/chart-standard/extra/video/index.md:16
@@ -1207,9 +1256,7 @@ msgid "动画变量"
 msgstr "Animation variables"
 
 #: src/chart-standard/extra/index.md:28
-msgid ""
-"在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 "
-"X 坐标作为一个动画变量。"
+msgid "在配置文件中会常常用到动画变量。例如，在 RPE 中，的 X 坐标变化事件实际上就是 X 坐标作为一个动画变量。"
 msgstr ""
 "Animation variables are often used in charts. For example, in RPE, the X "
 "coordinate change event is actually the X coordinate as an animation "
@@ -1217,9 +1264,8 @@ msgstr ""
 
 #: src/chart-standard/extra/index.md:30
 msgid ""
-"prpr 的动画变量有两种格式。第一种即单个值，表示该变量不会更改，一直维持同一个"
-"值。这种格式是为了方便填写而适用的。第二种格式与 RPE 中的格式相同，是由多个 "
-"`Event` 组成的。单个 `Event` 格式如下所示："
+"prpr 的动画变量有两种格式。第一种即单个值，表示该变量不会更改，一直维持同一个值。这种格式是为了方便填写而适用的。第二种格式与 RPE "
+"中的格式相同，是由多个 `Event` 组成的。单个 `Event` 格式如下所示："
 msgstr ""
 "There are 2 formats for prpr’s animation variables. The first is for a "
 "constant value, which means that the variable will not change and will "
@@ -1262,8 +1308,8 @@ msgstr "\"end\""
 
 #: src/chart-standard/extra/index.md:44
 msgid ""
-"其中 `startTime`、`endTime` 是事件的开始和结束时间；`easingType` 是缓动类型；"
-"`easingLeft`、`easingRight` 是可选的，代表裁剪缓动的开始与结束位置。"
+"其中 `startTime`、`endTime` 是事件的开始和结束时间；`easingType` "
+"是缓动类型；`easingLeft`、`easingRight` 是可选的，代表裁剪缓动的开始与结束位置。"
 msgstr ""
 "where `startTime` and `endTime` are the event’s start time and end time "
 "respectively; `easingType` is the type of easing; `easingLeft` and "
@@ -1271,13 +1317,11 @@ msgstr ""
 "ease."
 
 #: src/chart-standard/extra/index.md:46
-msgid ""
-"`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本"
-"身的类型的，它可以是下面类型中的任意一种："
+msgid "`start` 和 `end` 代表该时间开始和结束处该变量的值。这里值的类型是取决于变量本身的类型的，它可以是下面类型中的任意一种："
 msgstr ""
-"`start` and `end` represent the values at the beginning and end of the time. "
-"The type of the value here depends on the type of the animation variable "
-"itself, which can be any of the following types:"
+"`start` and `end` represent the values at the beginning and end of the "
+"time. The type of the value here depends on the type of the animation "
+"variable itself, which can be any of the following types:"
 
 #: src/chart-standard/extra/index.md:48
 msgid "`float`：单个小数；"
@@ -1296,14 +1340,13 @@ msgstr ""
 #: src/chart-standard/extra/index.md:52
 msgid "例如，下面的动画变量将在特定时段内从 `0` 到 `1` 线性变化："
 msgstr ""
-"For example, the following animation variable will vary linearly from `0` to "
-"`1` over a given time period:"
+"For example, the following animation variable will vary linearly from `0` "
+"to `1` over a given time period:"
 
 #: src/chart-standard/extra/effect/index.md:3
 msgid ""
-"特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无"
-"法实现或难以实现的视觉效果。prpr 预置了一批着色器，你也可以自己编写着色器，详"
-"见 [自行编写着色器](./custom-shader.md)。"
+"特效是在一段时间内对谱面整体施加着色器效果的特性，可以用以达成一些普通谱面无法实现或难以实现的视觉效果。prpr "
+"预置了一批着色器，你也可以自己编写着色器，详见 [自行编写着色器](./custom-shader.md)。"
 msgstr ""
 "Effect is a feature that applies shader to the entire chart for a specified "
 "amount of time. They can be used to achieve visual effects that are "
@@ -1350,12 +1393,11 @@ msgid "\"vars\""
 msgstr "\"vars\""
 
 #: src/chart-standard/extra/effect/index.md:25
-msgid ""
-"`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相"
-"同（`[小节数, 分子, 分母]`）。"
+msgid "`start` 和 `end` 指定了特效的开始和结束时间，格式与 RPE 默认的时间表示格式相同（`[小节数, 分子, 分母]`）。"
 msgstr ""
 "`start` and `end` specify the start and end time respectively in the same "
-"format as RPE's default time format (`[bar number, numerator, denominator]`)."
+"format as RPE's default time format (`[bar number, numerator, "
+"denominator]`)."
 
 #: src/chart-standard/extra/effect/index.md:27
 msgid "`shader`，即着色器名字，既可以是内置着色器，也可以是自定义的着色器。"
@@ -1364,19 +1406,16 @@ msgstr ""
 "custom shader."
 
 #: src/chart-standard/extra/effect/index.md:29
-msgid ""
-"`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默"
-"认为 `false`。"
+msgid "`global` 决定了该特效会不会影响到 UI 元素（连击数、暂停按钮等）。可以不填，默认为 `false`。"
 msgstr ""
-"`global` determines whether the effect will affect UI elements (combo count, "
-"pause button, etc). This field can be left blank, and its default value is "
-"`false`."
+"`global` determines whether the effect will affect UI elements (combo "
+"count, pause button, etc). This field can be left blank, and its default "
+"value is `false`."
 
 #: src/chart-standard/extra/effect/index.md:31
 msgid ""
-"`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映"
-"射，用于指定着色器的参数（或者说，着色器的 `uniform` 变量）。即，假设我需要指"
-"定两个变量 `power` 和 `radius` 的值，我可以这样写："
+"`vars` 是可选项，它是一个变量名字到 [`动画变量`](../index.html#动画变量) 的映射，用于指定着色器的参数（或者说，着色器的 "
+"`uniform` 变量）。即，假设我需要指定两个变量 `power` 和 `radius` 的值，我可以这样写："
 msgstr ""
 "`vars` is an optional parameter, it is a mapping of variable names to "
 "[animation variables](../index.html#animation-variables), it is used to "
@@ -1400,9 +1439,8 @@ msgstr "Example"
 
 #: src/chart-standard/extra/effect/index.md:45
 msgid ""
-"下面的例子将在 `[2, 0, 1]` 到 `[4, 0, 1]` 中使用 `chromatic` 内置着色器，并"
-"将 `power` 这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被"
-"固定为 `5`："
+"下面的例子将在 `[2, 0, 1]` 到 `[4, 0, 1]` 中使用 `chromatic` 内置着色器，并将 `power` "
+"这一参数在这一时段内从 `0` 到 `0.1` 线性变化，且 `sampleCount` 被固定为 `5`："
 msgstr ""
 "The following example will apply the built-in `chromatic` shader from `[2, "
 "0, 1]` to `[4, 0, 1]` and will vary the `power` parameter linearly from `0` "
@@ -1421,9 +1459,7 @@ msgid "\"sampleCount\""
 msgstr "\"sampleCount\""
 
 #: src/chart-standard/extra/effect/index.md:74
-msgid ""
-"你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相"
-"关说明。"
+msgid "你可以在 [这里](./builtin/index.md) 查看所有的内置着色器，以及它们的参数和相关说明。"
 msgstr ""
 "You can view all the built-in shaders, along with their parameters and "
 "related descriptions, at [here](./builtin/index.md)."
@@ -1454,9 +1490,7 @@ msgid "参数"
 msgstr "Parameters"
 
 #: src/chart-standard/extra/effect/builtin/chromatic.md:9
-msgid ""
-"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
-"销也更大；"
+msgid "`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开销也更大；"
 msgstr ""
 "`sampleCount` (integer, default value: `3`, Range: `1-64`): Sample count, "
 "the higher the value, the display will be more coherent, and the overhead "
@@ -1464,8 +1498,7 @@ msgstr ""
 
 #: src/chart-standard/extra/effect/builtin/chromatic.md:10
 msgid "`power`（小数，默认 `0.01`）：强度，或者说偏移距离。"
-msgstr ""
-"`power` (float, default value: `0.01`): The intensity, or offset distance."
+msgstr "`power` (float, default value: `0.01`): The intensity, or offset distance."
 
 #: src/chart-standard/extra/effect/builtin/circleBlur.md:3
 msgid "圆点模糊。会将像素点模糊放大为亮点，建议搭配参数动画使用。"
@@ -1479,13 +1512,11 @@ msgstr "![example](image/circleBlur.png)"
 
 #: src/chart-standard/extra/effect/builtin/circleBlur.md:9
 msgid "`size`（小数，默认 `10.0`）：原点的大小，以像素为单位。"
-msgstr ""
-"`size` (float, default value: `10.0`): The size of the origin, in pixels."
+msgstr "`size` (float, default value: `10.0`): The size of the origin, in pixels."
 
 #: src/chart-standard/extra/effect/builtin/fisheye.md:3
 msgid "鱼眼效果。当 `power` 为负数时可以做出类似隧洞穿梭的效果。"
-msgstr ""
-"Fisheye effect. When `power` is negative, you can make tunneling effect."
+msgstr "Fisheye effect. When `power` is negative, you can make tunneling effect."
 
 #: src/chart-standard/extra/effect/builtin/fisheye.md:5
 msgid "`power` 为负数："
@@ -1522,9 +1553,7 @@ msgid "`power`（小数，默认 `0.3`）：闪烁强度；"
 msgstr "`power` (float, default value: `0.3`): Flicker intensity."
 
 #: src/chart-standard/extra/effect/builtin/glitch.md:10
-msgid ""
-"`rate`（小数，默认 `0.6`，范围 `0-1`）：闪烁频率。`0` 为总不闪烁，`1` 为总是"
-"闪烁；"
+msgid "`rate`（小数，默认 `0.6`，范围 `0-1`）：闪烁频率。`0` 为总不闪烁，`1` 为总是闪烁；"
 msgstr ""
 "`rate` (float, default value: `0.6`, range: `0-1`): Flicker frequency. `0` "
 "for no flickers, `1` for always flicker."
@@ -1536,8 +1565,8 @@ msgstr "`speed` (float, default value: `5.0`): Speed of flickering animation."
 #: src/chart-standard/extra/effect/builtin/glitch.md:12
 msgid "`blockCount`（小数，默认 `30.5`）：见上图，错位条带的条数（大概）；"
 msgstr ""
-"`blockCount` (float, default value: `30.5`): Look at above images, number of "
-"misaligned strips (approximate)."
+"`blockCount` (float, default value: `30.5`): Look at above images, number "
+"of misaligned strips (approximate)."
 
 #: src/chart-standard/extra/effect/builtin/glitch.md:13
 msgid "`colorRate`（小数，默认 `0.01`，范围 `0-1`）：色差的距离。"
@@ -1554,9 +1583,7 @@ msgid "![示例](image/grayscale.png)"
 msgstr "![example](image/grayscale.png)"
 
 #: src/chart-standard/extra/effect/builtin/grayscale.md:9
-msgid ""
-"`factor`（小数，默认 `1.0`）：灰度化程度。`0` 为不进行灰度化处理，`1` 为完全"
-"进行灰度化处理。"
+msgid "`factor`（小数，默认 `1.0`）：灰度化程度。`0` 为不进行灰度化处理，`1` 为完全进行灰度化处理。"
 msgstr ""
 "`factor` (float, default value: `1.0`): Grayscale level. `0` for no "
 "grayscale processing, `1` for complete grayscale processing."
@@ -1570,17 +1597,13 @@ msgid "![示例](image/noise.png)"
 msgstr "![example](image/noise.png)"
 
 #: src/chart-standard/extra/effect/builtin/noise.md:9
-msgid ""
-"`seed`（小数，默认 `81.0`）：用来生成随机图案的种子。通过连续地变化种子可以使"
-"图案发生连续的变化。"
+msgid "`seed`（小数，默认 `81.0`）：用来生成随机图案的种子。通过连续地变化种子可以使图案发生连续的变化。"
 msgstr ""
 "`seed` (float, default value: `81.0`): Used to generate random patterns. By "
 "varying the seeds continuously, the pattern can be changed continuously."
 
 #: src/chart-standard/extra/effect/builtin/noise.md:10
-msgid ""
-"`power`（小数，默认 `0.03`，范围 `0-1`）：见上图，模糊的程度（像素偏移范"
-"围）。"
+msgid "`power`（小数，默认 `0.03`，范围 `0-1`）：见上图，模糊的程度（像素偏移范围）。"
 msgstr ""
 "`power` (float, default value: `0.03`, range: `0-1`): Look at above images, "
 "intensity of blur (Range of pixel offset)."
@@ -1621,13 +1644,10 @@ msgstr ""
 
 #: src/chart-standard/extra/effect/builtin/radialBlur.md:11
 msgid "`power`（小数，默认 `0.01`，范围 `0-1`）：放射强度；"
-msgstr ""
-"`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
+msgstr "`power` (float, default value: `0.01`, range: `0-1`): Intensity of effect."
 
 #: src/chart-standard/extra/effect/builtin/radialBlur.md:12
-msgid ""
-"`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开"
-"销也更大。"
+msgid "`sampleCount`（整数，默认 `3`，范围 `1-64`）：采样次数，越高显示会更连贯，开销也更大。"
 msgstr ""
 "`sampleCount` (integer, default value: `3`, range: `1-64`): Sample count, "
 "the higher the value, the display will be more coherent, and the overhead "
@@ -1642,9 +1662,7 @@ msgid "![示例](image/shockwave.png)"
 msgstr "![example](image/shockwave.png)"
 
 #: src/chart-standard/extra/effect/builtin/shockwave.md:9
-msgid ""
-"`progress`（小数，默认 `0.2`，范围 `0-1`）：冲击波的进度。冲击波是一个动画，"
-"`0` 进度为开始，直到 `1` 进度结束；"
+msgid "`progress`（小数，默认 `0.2`，范围 `0-1`）：冲击波的进度。冲击波是一个动画，`0` 进度为开始，直到 `1` 进度结束；"
 msgstr ""
 "`progress` (float, default value: `0.2`, range: `0-1`): Progress of the "
 "effect. Shockwave is an animation, `0` for start of animation, `1` for end "
@@ -1679,9 +1697,7 @@ msgid "vignette"
 msgstr "vignette"
 
 #: src/chart-standard/extra/effect/builtin/vignette.md:3
-msgid ""
-"虚光照效果。将屏幕的边缘调暗或调成其他颜色，可以用来模拟 Arcaea 的部分异象效"
-"果。"
+msgid "虚光照效果。将屏幕的边缘调暗或调成其他颜色，可以用来模拟 Arcaea 的部分异象效果。"
 msgstr ""
 "Virtual lighting effect. Will darken or tint the edges of the screen to "
 "other colors, can be used to simulate some of Arcaea's anomaly effect."
@@ -1692,13 +1708,10 @@ msgstr "![example](image/vignette.png)"
 
 #: src/chart-standard/extra/effect/builtin/vignette.md:9
 msgid "`color`（颜色，默认黑色）：边缘的颜色；"
-msgstr ""
-"`color` (color, default color: `black`): Color at the edges of the screen."
+msgstr "`color` (color, default color: `black`): Color at the edges of the screen."
 
 #: src/chart-standard/extra/effect/builtin/vignette.md:10
-msgid ""
-"`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越"
-"多；"
+msgid "`extend`（小数，默认 `0.25`，范围 `0-1`）：边缘的延伸程度，值越大黑色部分越多；"
 msgstr ""
 "`extend` (float, default value: `0.25`, range: `0-1`): The extension from "
 "the edge, the larger the value, the more black parts."
@@ -1712,15 +1725,14 @@ msgstr ""
 # `/shader_path` would be a placeholder. A better notation is needed.
 #: src/chart-standard/extra/effect/custom-shader.md:3
 msgid ""
-"用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。"
-"在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 `/` 是必不可少的，它将"
-"内置着色器和自定义着色器区分开来。"
+"用于特效的着色器是片元着色器。你可以自行编写着色器并将其附加于谱面压缩包中。在 `shader` 字段，你需要填写 `/shader路径`。注意这里的 "
+"`/` 是必不可少的，它将内置着色器和自定义着色器区分开来。"
 msgstr ""
-"Fragment shaders are used for making the special effects. You can write your "
-"own shaders and attach them to the chart's zip file. In the `shader` field, "
-"you need to fill in the `/shader_path`. Note that the `/` must be included "
-"and this field must be filled in because it distinguishes the built-in "
-"shaders from the custom shaders."
+"Fragment shaders are used for making the special effects. You can write "
+"your own shaders and attach them to the chart's zip file. In the `shader` "
+"field, you need to fill in the `/shader_path`. Note that the `/` must be "
+"included and this field must be filled in because it distinguishes the "
+"built-in shaders from the custom shaders."
 
 #: src/chart-standard/extra/effect/custom-shader.md:5
 msgid "为保证兼容性，着色器版本要求为 GLSL 1.00。"
@@ -1754,13 +1766,11 @@ msgstr ""
 "```"
 
 #: src/chart-standard/extra/effect/custom-shader.md:18
-msgid ""
-"还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你"
-"应该避免与它们重名："
+msgid "还有一些变量是虽然存在，但在片元着色器中使用无意义的。在定义自己的变量时，你应该避免与它们重名："
 msgstr ""
-"There are also variables that exists, but these variables are useless in the "
-"fragment shaders. When defining your own variables, you should avoid these "
-"variables' name:"
+"There are also variables that exists, but these variables are useless in "
+"the fragment shaders. When defining your own variables, you should avoid "
+"these variables' name:"
 
 #: src/chart-standard/extra/effect/custom-shader.md:26
 msgid "着色器变量"
@@ -1770,8 +1780,8 @@ msgstr "Shader variables"
 #: src/chart-standard/extra/effect/custom-shader.md:28
 msgid "为了在谱面中可以指定参数，你需要这样定义你的着色器 `uniform` 变量："
 msgstr ""
-"In order to define your own parameters in the chart, you need to define your "
-"shader `uniform` variables like this:"
+"In order to define your own parameters in the chart, you need to define "
+"your shader `uniform` variables like this:"
 
 #: src/chart-standard/extra/effect/custom-shader.md:30
 msgid ""
@@ -1784,19 +1794,17 @@ msgstr ""
 "```"
 
 #: src/chart-standard/extra/effect/custom-shader.md:34
-msgid ""
-"其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；"
-"`def` 为默认值。三个都是不可缺少的。"
+msgid "其中 `type` 为类型，目前支持 `float`、`vec2` 和 `vec4`；`name` 为变量名；`def` 为默认值。三个都是不可缺少的。"
 msgstr ""
-"where `type` is the variable type, currently `float`, `vec2`, and `vec4` are "
-"supported; `name` is the variable name; `def` is the default value. Any of "
-"the 3 values cannot be left out."
+"where `type` is the variable type, currently `float`, `vec2`, and `vec4` "
+"are supported; `name` is the variable name; `def` is the default value. Any "
+"of the 3 values cannot be left out."
 
 #: src/chart-standard/extra/effect/custom-shader.md:38
 msgid "下面的示例着色器将会根据 `factor` 的值给屏幕叠加上强弱不等的红色："
 msgstr ""
-"The example below shows that the shader will overlay the screen with varying "
-"shades of red depending on the value of factor:"
+"The example below shows that the shader will overlay the screen with "
+"varying shades of red depending on the value of factor:"
 
 #: src/chart-standard/extra/effect/custom-shader.md:40
 msgid ""
@@ -1810,8 +1818,8 @@ msgid ""
 "uniform float factor; // %0.5% 0..1\n"
 "\n"
 "void main() {\n"
-"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, 1.0), "
-"factor);\n"
+"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, "
+"1.0), factor);\n"
 "}\n"
 "```"
 msgstr ""
@@ -1825,24 +1833,22 @@ msgstr ""
 "uniform float factor; // %0.5% 0..1\n"
 "\n"
 "void main() {\n"
-"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, 1.0), "
-"factor);\n"
+"  gl_FragColor = mix(texture2D(screenTexture, uv), vec4(1.0, 0.0, 0.0, "
+"1.0), factor);\n"
 "}\n"
 "```"
 
 #: src/chart-standard/extra/video/index.md:3
 msgid ""
-"在 prpr 中，你可以在背景播放视频，但音频并不会被播放。但由于大部分视频文件都"
-"较大，且 prpr 的谱面上传限制是 10MB，带有大型 BGA 的谱可能无法上传。如果在上"
-"传中需要用到视频背景，建议是用来实现一些小的动画、并对视频进行压缩（包括但不"
-"仅限于删除音频轨道）。"
+"在 prpr 中，你可以在背景播放视频，但音频并不会被播放。但由于大部分视频文件都较大，且 prpr 的谱面上传限制是 10MB，带有大型 BGA "
+"的谱可能无法上传。如果在上传中需要用到视频背景，建议是用来实现一些小的动画、并对视频进行压缩（包括但不仅限于删除音频轨道）。"
 msgstr ""
 "In prpr, you can play a video in the background, but the audio will not be "
 "played. However, since most videos have a large file size and the upload "
 "limit for prpr charts is 10MB, charts that have large BGA may not be "
-"uploaded. If you need to have a video background, it is recommended that the "
-"video background is used for small animations and compressed (including but "
-"not limited to removing audio)."
+"uploaded. If you need to have a video background, it is recommended that "
+"the video background is used for small animations and compressed (including "
+"but not limited to removing audio)."
 
 #: src/chart-standard/extra/video/index.md:7
 msgid "你需要在 `extra.json` 中加入 `videos` 字段，其内容为 `Video` 的数组。"
@@ -1893,9 +1899,7 @@ msgid "`time` 用拍数表示视频的开始时间。"
 msgstr "`time` indicates the start time of the video in terms of beat numbers."
 
 #: src/chart-standard/extra/video/index.md:27
-msgid ""
-"`scale` 表示视频的缩放方式。在制作谱面时，你需要考虑在谱面不同宽高比下的显示"
-"情况。为此，`scale` 有三种值可选："
+msgid "`scale` 表示视频的缩放方式。在制作谱面时，你需要考虑在谱面不同宽高比下的显示情况。为此，`scale` 有三种值可选："
 msgstr ""
 "`scale` indicates how the video is scaled. When making a chart, you need to "
 "consider how the chart will look at different aspect ratios. For this "
@@ -1919,24 +1923,23 @@ msgstr "`fit`: Forcefully stretch the video to the entire screen."
 
 #: src/chart-standard/extra/video/index.md:33
 msgid ""
-"`alpha` 和 `dim` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗程"
-"度，他们都是 [`动画变量`](../index.html#动画变量)。"
+"`alpha` 和 `dim` 分别代表视频的不透明度（若透明，则会显示下方的曲绘）和昏暗程度，他们都是 "
+"[`动画变量`](../index.html#动画变量)。"
 msgstr ""
 "`alpha` and `dim` represents the transparency of the video (if it is "
 "invisible, the song background art will be displayed instead) and dimness "
-"respectively, they are both [`Animation variables`](../index.html#animation-"
-"variables)."
+"respectively, they are both [`Animation "
+"variables`](../index.html#animation-variables)."
 
 #: src/chart-standard/unlock_video/index.md:4
 msgid "**请注意解锁动画和视频背景的区别**"
-msgstr ""
-"**Please note the difference between unlock animation and video background**"
+msgstr "**Please note the difference between unlock animation and video background**"
 
 #: src/chart-standard/unlock_video/index.md:6
 msgid "解锁动画允许在玩家初次游玩谱面前播放一段视频。"
 msgstr ""
-"The unlock animation allows a video to be played before the player's initial "
-"playthrough of the chart."
+"The unlock animation allows a video to be played before the player's "
+"initial playthrough of the chart."
 
 #: src/chart-standard/unlock_video/index.md:8
 msgid "使用方法"
@@ -1958,19 +1961,17 @@ msgstr "Import your chart in Phira."
 
 #: src/chart-standard/unlock_video/index.md:15
 msgid ""
-"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，"
-"在里面找到 `info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件"
-"夹，是 pez 解压出来的文件夹）；"
+"在 `data/charts/custom` 中搜索你的谱面 ID（如 `9067228`），找到对应的文件夹，在里面找到 "
+"`info.yml`，拷贝到你的谱面文件夹里（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）；"
 msgstr ""
 "Search for your chart ID in `data/charts/custom` (e.g. `9067228`), locate "
-"the corresponding folder, find `info.yml` in the folder, and copy it to your "
-"chart folder (Note that the folder mentioned here is not the folder that you "
-"get after importing into Phira, it's the folder that you extracted from pez)."
+"the corresponding folder, find `info.yml` in the folder, and copy it to "
+"your chart folder (Note that the folder mentioned here is not the folder "
+"that you get after importing into Phira, it's the folder that you extracted "
+"from pez)."
 
 #: src/chart-standard/unlock_video/index.md:16
-msgid ""
-"向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）"
-"内加入解锁动画，假设文件名为 `unlock.mp4`；"
+msgid "向你的谱面文件夹（注意不是导入到 Phira 后的文件夹，是 pez 解压出来的文件夹）内加入解锁动画，假设文件名为 `unlock.mp4`；"
 msgstr ""
 "Add the unlock animation to your chart folder (Note that the folder "
 "mentioned here is not the folder that you get after importing into Phira, "
@@ -1979,8 +1980,8 @@ msgstr ""
 
 #: src/chart-standard/unlock_video/index.md:17
 msgid ""
-"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: unlock."
-"mp4`（如果没有这一行，则加上这一行）；"
+"在 `info.yml` 中找到 `unlockVideo: null` 一行，替换为 `unlockVideo: "
+"unlock.mp4`（如果没有这一行，则加上这一行）；"
 msgstr ""
 "Find the line `unlockVideo: null` in `info.yml` and replace it with "
 "`unlockVideo: unlock.mp4` (or add that line if it's not there)."
@@ -1990,14 +1991,11 @@ msgid "重新导入你的谱面。"
 msgstr "Re-import your chart."
 
 #: src/event/index.md:1
-#, fuzzy
 msgid "Phira 活动说明"
-msgstr "Phira-docs Instruction"
+msgstr "Phira event description"
 
 #: src/event/index.md:3
-msgid ""
-"Phira 已经成功~~(存疑)~~举办了一些活动, 本文主要介绍在目前的项目结构下, "
-"Phira 活动相关的机制"
+msgid "Phira 已经成功~~(存疑)~~举办了一些活动, 本文主要介绍在目前的项目结构下, Phira 活动相关的机制"
 msgstr ""
 
 #: src/event/index.md:5
@@ -2005,26 +2003,19 @@ msgid "基础概念"
 msgstr ""
 
 #: src/event/index.md:7
-#, fuzzy
 msgid "活动"
-msgstr "Event Template"
+msgstr "Event"
 
 #: src/event/index.md:9
-msgid ""
-"活动和活动页面是一一对应的关系, 活动页面的设计采用 UML 语言, 相关的文档见[此"
-"处](../uml/README.md)"
+msgid "活动和活动页面是一一对应的关系, 活动页面的设计采用 UML 语言, 相关的文档见[此处](../uml/README.md)"
 msgstr ""
 
 #: src/event/index.md:11
-msgid ""
-"活动具有一个 `owner`, 通常设置为活动主办方的个人或团体账户, 活动隐藏时仅对服"
-"务器管理员和其 `owner` 可见"
+msgid "活动具有一个 `owner`, 通常设置为活动主办方的个人或团体账户, 活动隐藏时仅对服务器管理员和其 `owner` 可见"
 msgstr ""
 
 #: src/event/index.md:13
-msgid ""
-"活动还具有起始时间, 开始时间前活动可见但无法参与, 在开始时间服务器会向全服务"
-"器玩家发送游戏内消息告知活动已开始, 结束时间后活动无法报名参加"
+msgid "活动还具有起始时间, 开始时间前活动可见但无法参与, 在开始时间服务器会向全服务器玩家发送游戏内消息告知活动已开始, 结束时间后活动无法报名参加"
 msgstr ""
 
 #: src/event/index.md:15
@@ -2036,18 +2027,15 @@ msgid "活动参加后会产生排行榜, 具体运算规则需要单独设置, 
 msgstr ""
 
 #: src/event/index.md:19
-#, fuzzy
 msgid "谱面合集"
-msgstr "Chart Collection Element `col`"
+msgstr "Chart Collection"
 
 #: src/event/index.md:21
 msgid "实际上谱面合集可以任意创建, 与活动关联并不紧密"
 msgstr ""
 
 #: src/event/index.md:23
-msgid ""
-"活动页面中可以引用一个或多个谱面合集, 谱面合集中的谱面不会受到 `hidden` 等字"
-"段的限制, 总是对所有玩家可见"
+msgid "活动页面中可以引用一个或多个谱面合集, 谱面合集中的谱面不会受到 `hidden` 等字段的限制, 总是对所有玩家可见"
 msgstr ""
 
 #: src/event/index.md:25
@@ -2055,9 +2043,7 @@ msgid "举办活动"
 msgstr ""
 
 #: src/event/index.md:27
-msgid ""
-"要举办一次活动, 活动主办方需要向 TeamFlos 时任社区管理员或指定外部联络人员(下"
-"称对接人员)提供相关材料, 具体为"
+msgid "要举办一次活动, 活动主办方需要向 TeamFlos 时任社区管理员或指定外部联络人员(下称对接人员)提供相关材料, 具体为"
 msgstr ""
 
 #: src/event/index.md:29
@@ -2070,8 +2056,8 @@ msgstr ""
 
 #: src/event/index.md:31
 msgid ""
-"活动页面设计中用到的美术素材(考虑到服务器负载和可用性等问题, 推荐采用 self "
-"host 的方式, 向 TeamFlos 提供的源码中包含相关素材的 URL 即可)"
+"活动页面设计中用到的美术素材(考虑到服务器负载和可用性等问题, 推荐采用 self host 的方式, 向 TeamFlos "
+"提供的源码中包含相关素材的 URL 即可)"
 msgstr ""
 
 #: src/event/index.md:32
@@ -2093,9 +2079,7 @@ msgstr ""
 "interfaces that are decoupled from the code. "
 
 #: src/uml/syntax/index.md:3
-msgid ""
-"UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句"
-"构成, 每个元素占据一或多行."
+msgid "UML 文件格式是纯文本的人类可读格式. UML 由 Element(元素), 注释和变量定义语句构成, 每个元素占据一或多行."
 msgstr ""
 "The UML file format is a human-readable format in plain text. UML consists "
 "of elements, comments and variable definition statements, with each element "
@@ -2109,12 +2093,11 @@ msgstr ""
 "pointing down."
 
 #: src/uml/syntax/coordinate.md:5
-msgid ""
-"屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内"
-"置变量)."
+msgid "屏幕宽度总是 `2`, 可以通过宽高比计算屏幕高度, 参见[内置变量](./variable.md#内置变量)."
 msgstr ""
-"The screen width is always `2`, and the screen height can be calculated from "
-"the aspect ratio, see [built-in variables](./variable.md#built-in-variables)."
+"The screen width is always `2`, and the screen height can be calculated "
+"from the aspect ratio, see [built-in "
+"variables](./variable.md#built-in-variables)."
 
 #: src/uml/syntax/type.md:3
 msgid "UML 中有如下数据类型:"
@@ -2133,9 +2116,7 @@ msgid "`Rect`"
 msgstr "`Rect`"
 
 #: src/uml/syntax/type.md:11
-msgid ""
-"矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐"
-"标, 矩形宽度, 矩形高度)定义."
+msgid "矩形. 由 `[left, top, width, height]`(分别是左上角 `x` 坐标, 左上角 `y` 坐标, 矩形宽度, 矩形高度)定义."
 msgstr ""
 "Rectangle. Defined by `[left, top, width, height]` (`x` coordinate of top "
 "left corner, y` coordinate of top left corner, rectangle width, rectangle "
@@ -2186,8 +2167,8 @@ msgstr "`Bool`"
 #: src/uml/syntax/type.md:26
 msgid "布尔值. 值是 `true` 或 `false`, 目前只能用于元素的属性中."
 msgstr ""
-"Boolean value. The value is either `true` or `false`, and can currently only "
-"be used in attributes of an element."
+"Boolean value. The value is either `true` or `false`, and can currently "
+"only be used in attributes of an element."
 
 #: src/uml/syntax/type.md:28
 msgid "`String`"
@@ -2253,12 +2234,10 @@ msgid "`URL`: 网址"
 msgstr "`URL': Website"
 
 #: src/uml/syntax/expression.md:3
-msgid ""
-"表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的"
-"值."
+msgid "表达式是由 `Float`, 变量, 运算符和函数组成的. 表达式经过计算是 `Float` 类型的值."
 msgstr ""
-"Expressions are composed of `Float`, variables, operators and functions. The "
-"expression is evaluated to a value of type `Float`."
+"Expressions are composed of `Float`, variables, operators and functions. "
+"The expression is evaluated to a value of type `Float`."
 
 #: src/uml/syntax/expression.md:5
 msgid "运算符"
@@ -2349,8 +2328,7 @@ msgid "`ln(x)`: 自然对数函数"
 msgstr "`ln(x)`: Natural logarithmic function"
 
 #: src/uml/syntax/expression.md:32
-msgid ""
-"`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
+msgid "`sig(x)`: 符号函数, `x` 为 `+0` 或正数时返回 `1`, 为 `-0` 或负数时返回 `-1`"
 msgstr ""
 "`sig(x)`: Sign function, returns `1` when `x` is `+0` or a positive number, "
 "returns `-1` when it is `-0` or a negative number"
@@ -2402,17 +2380,15 @@ msgstr ""
 
 #: src/uml/syntax/variable.md:9
 msgid ""
-"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的"
-"值, 或结果是 `Float` 或 `Rect` 类型的表达式."
+"定义一个变量 `name`, 其值为 `value`. `value` 可以是 `Float` 或 `Rect` 类型的值, 或结果是 `Float` "
+"或 `Rect` 类型的表达式."
 msgstr ""
 "The above defines a variable `name`, whose value is `value`. `value` can be "
 "a value of type `Float` or `Rect`, or an expression that results in a value "
 "of type `Float` or `Rect`."
 
 #: src/uml/syntax/variable.md:11
-msgid ""
-"变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建"
-"元素或定义其他变量时使用这个变量."
+msgid "变量可以被重复定义, 但只有最后一次定义的值会被使用. 定义变量后, 你可以在新建元素或定义其他变量时使用这个变量."
 msgstr ""
 "Variables can be defined repeatedly, but only the value of the last "
 "definition will be used. After defining a variable, you can use it when "
@@ -2437,7 +2413,8 @@ msgstr "`o`: sliding distance"
 #: src/uml/syntax/variable.md:20
 msgid "`joined`: 是否已经参与了该活动, 参与了时值为 `1`, 否则为 `0`"
 msgstr ""
-"`joined`: whether the activity has been joined, `1` if joined, `0` otherwise."
+"`joined`: whether the activity has been joined, `1` if joined, `0` "
+"otherwise."
 
 #: src/uml/syntax/variable.md:21
 msgid "`$h`: 用户能滚动的最大高度, 通过设置该变量的值来限制用户的滚动范围"
@@ -2447,8 +2424,8 @@ msgstr ""
 
 #: src/uml/syntax/variable.md:23
 msgid ""
-"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻"
-"来为页面添加动态效果, 如动画, 换页等."
+"UML 并不具备事件功能, 可以利用 `t`, `o` 和[按钮](./elements/btn.md)的按下时刻来为页面添加动态效果, 如动画, "
+"换页等."
 msgstr ""
 "UML does not have event functionality. You can use `t`, `o` and the time of "
 "[button](./elements/btn.md) press to add dynamic effects to the page, such "
@@ -2459,33 +2436,26 @@ msgid "全局变量"
 msgstr "Global variable"
 
 #: src/uml/syntax/variable.md:27
-msgid ""
-"全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式"
-"如下:"
+msgid "全局变量是在 UML 文件的任何地方都可以被读取或者写入的变量. 全局变量的定义方式如下:"
 msgstr ""
 "Global variables are variables that can be read or written anywhere in the "
 "UML file. Global variables are defined as follows:"
 
 #: src/uml/syntax/variable.md:33
-msgid ""
-"其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只"
-"有最后一次定义的值会被使用."
+msgid "其中, `type` 只能为 `btn`. 此后, 你仍然可以通过 `let` 的方式写入全局变量, 只有最后一次定义的值会被使用."
 msgstr ""
 "where `type` can only be `btn`. After that, you can still write into global "
 "variables by using the `let` keyword, only the last defined value will be "
 "used."
 
 #: src/uml/syntax/variable.md:35
-msgid ""
-"活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
+msgid "活动界面在每一帧都会被重画, 这意味着 UML 在每一帧都会重新计算所有变量的值."
 msgstr ""
 "The activity interface is redrawn at every frame, which means that UML "
 "recalculates the values of all variables at every frame."
 
 #: src/uml/syntax/variable.md:37
-msgid ""
-"但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变"
-"量."
+msgid "但[按钮](./elements/btn.md)的一些属性需要在帧之间保持不变, 因此需要使用全局变量."
 msgstr ""
 "However, some properties of the [button](./elements/btn.md) need to be kept "
 "constant between frames, so global variables are needed."
@@ -2498,18 +2468,16 @@ msgstr ""
 
 #: src/uml/syntax/element.md:9
 msgid ""
-"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类"
-"型的元素的属性也各不相同, 其中一些是必填, 会在介绍元素时具体标注."
+"其中, `type` 为元素的类型, `attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的元素的属性也各不相同, "
+"其中一些是必填, 会在介绍元素时具体标注."
 msgstr ""
 "where `type` is the type of the element, while `attrN` and `valueN` are the "
 "name and value of the attribute respectively. Attributes vary for different "
-"types of elements, some of which are required and will be specified when the "
-"element is introduced."
+"types of elements, some of which are required and will be specified when "
+"the element is introduced."
 
 #: src/uml/syntax/element.md:11
-msgid ""
-"元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动"
-"对应一个表示该元素绘制范围的 `Rect` 变量."
+msgid "元素的 `id` 属性为所有元素共有的可选属性, 在元素被定义后, 其 `id` 属性将自动对应一个表示该元素绘制范围的 `Rect` 变量."
 msgstr ""
 "The `id` attribute of an element is an optional attribute common to all "
 "elements. When an element is defined, its `id` attribute automatically "
@@ -2517,8 +2485,7 @@ msgstr ""
 "element is drawn."
 
 #: src/uml/syntax/element.md:13
-msgid ""
-"后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
+msgid "后面的 `{ Hello }` 是可选内容, 代表该元素的文字内容. 只对 `p`(段落元素)生效."
 msgstr ""
 "The `{ Hello }` at the end is optional and represents the text content of "
 "the element. It is only valid for `p` (paragraph elements)."
@@ -2538,8 +2505,8 @@ msgstr "`y`(optional, default is `0`): `y` coordinate of text"
 
 #: src/uml/syntax/elements/p.md:12
 msgid ""
-"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 "
-"`x` 坐标左对齐, 为 `1` 时右对齐, `0.5` 时居中"
+"`ax`(选填, 默认为 `0`): 文本横向对齐, `[0, 1]` 间的浮点数. 为 `0` 时, 按照 `x` 坐标左对齐, 为 `1` "
+"时右对齐, `0.5` 时居中"
 msgstr ""
 "`ax` (optional, default is `0`): horizontal alignment of text, floating "
 "point number between `[0, 1]`. When it is `0`, it will be left aligned "
@@ -2549,24 +2516,21 @@ msgstr ""
 #: src/uml/syntax/elements/p.md:13
 msgid "`ay`(选填, 默认为 `0`): 文本纵向对齐, 具体意义同上"
 msgstr ""
-"`ay` (optional, default is `0`): vertical alignment of text, the description "
-"is the same as above"
+"`ay` (optional, default is `0`): vertical alignment of text, the "
+"description is the same as above"
 
 #: src/uml/syntax/elements/p.md:14
 msgid "`size`(选填, 默认为 `1`): 文本大小"
 msgstr "`size`(optional, default `1`): the size of the text."
 
 #: src/uml/syntax/elements/p.md:15
-msgid ""
-"`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
+msgid "`ml`(选填, 默认为 `false`): 文本是否多行渲染, 只在设置了 `mw` 的条件下有效"
 msgstr ""
 "`ml`(optional, default `false`): whether the text will be rendered in "
 "multiple lines, only valid if `mw` is set."
 
 #: src/uml/syntax/elements/p.md:16
-msgid ""
-"`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将"
-"自动换行"
+msgid "`mw`(选填): 文本最大宽度. 在单行模式下, 超出范围的文本将被省略；多行模式下将自动换行"
 msgstr ""
 "`mw`(optional): maximum text width. In single-line mode, text beyond the "
 "range will be omitted; In multi-line mode, it will be automatically wrapped."
@@ -2586,9 +2550,7 @@ msgid "`Text`(必填): 文本内容"
 msgstr "`Text` (required): text content"
 
 #: src/uml/syntax/elements/p.md:21
-msgid ""
-"`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形"
-"区域."
+msgid "`p` 的位置并不通过完整的矩形来定义, 但你仍可以用 `p` 的 `id` 属性来获取其矩形区域."
 msgstr ""
 "The position of `p` is not defined by a full rectangle, but you can still "
 "get the rectangular area of `p` by using its `id` attribute."
@@ -2604,9 +2566,7 @@ msgstr ""
 "`Rect`."
 
 #: src/uml/syntax/elements/img.md:10
-msgid ""
-"`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透"
-"明"
+msgid "`c`(选填, 默认为 `\"white\"`): 在图片上叠加的颜色. 若颜色半透明, 图片也会半透明"
 msgstr ""
 "`c`(optional, default is `“white”`): the color to overlay on the image. If "
 "the color is translucent, the image will be translucent as well."
@@ -2620,8 +2580,8 @@ msgstr ""
 #: src/uml/syntax/elements/img.md:12
 msgid "`cropCenter`: 保持图片比例, 从图片中心裁剪，保证 `r` 被完全填满"
 msgstr ""
-"`cropCenter`: keep the image proportions, crop from the center of the image, "
-"and ensure that `r` is completely filled"
+"`cropCenter`: keep the image proportions, crop from the center of the "
+"image, and ensure that `r` is completely filled"
 
 #: src/uml/syntax/elements/img.md:13
 msgid "`inside`: 保持图片比例, 使图片完全显示在 `r` 中"
@@ -2645,8 +2605,7 @@ msgstr ""
 
 #: src/uml/syntax/elements/col.md:10
 msgid "`rn`(选填, 默认为 `4`): 一行显示的谱面数"
-msgstr ""
-"`rn`(optional, default is `4`): the number of charts displayed in one line"
+msgstr "`rn`(optional, default is `4`): the number of charts displayed in one line"
 
 #: src/uml/syntax/elements/col.md:11
 msgid "`rh`(选填, 默认为 `0.3`): 谱面高度"
@@ -2659,16 +2618,13 @@ msgstr ""
 "`Rect`."
 
 #: src/uml/syntax/elements/btn.md:9
-msgid ""
-"`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
+msgid "`action`(选填): 按钮的点击行为, 可用的值参见[数据类型](../type.md#数据类型)"
 msgstr ""
-"`action` (optional): the click behavior of the button, see [datatype](../"
-"type.md#datatype) for possible values"
+"`action` (optional): the click behavior of the button, see "
+"[datatype](../type.md#datatype) for possible values"
 
 #: src/uml/syntax/elements/btn.md:11
-msgid ""
-"在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下"
-"属性:"
+msgid "在元素被定义后, 其 `id` 属性除了表示该元素绘制范围的 `Rect` 变量, 还具有以下属性:"
 msgstr ""
 "After an element is defined, its `id` attribute, in addition to the `Rect` "
 "variable representing the drawing range of the element, also has the "
@@ -2692,8 +2648,8 @@ msgstr "`id.count`: the number of times the button has been pressed"
 
 #: src/uml/syntax/comment.md:4
 msgid ""
-"你可以用 `#` 开头的行添加注释, 除了部分特殊格式的注释([注释表达式](./"
-"comment_expression.md)), 注释不会被执行, 可以用来提示当前代码的作用."
+"你可以用 `#` 开头的行添加注释, 除了部分特殊格式的注释([注释表达式](./comment_expression.md)), 注释不会被执行, "
+"可以用来提示当前代码的作用."
 msgstr ""
 
 #: src/uml/syntax/comment.md:6
@@ -2701,16 +2657,13 @@ msgid "注释行在 `#` 后至少有一个字符, 否则会导致报错."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:3
-msgid ""
-"注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释"
-"表达式的格式如下:"
+msgid "注释表达式是一种特殊的注释, 它是为了兼容旧版本设计的, 可以被执行的注释. 注释表达式的格式如下:"
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:9
 msgid ""
-"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, "
-"`attrN` 和 `valueN` 分别为属性名称和属性值. 不同类型的表达式的属性也各不相"
-"同, 其中一些是必填, 会在介绍表达式时具体标注."
+"其中, `exp` 表示该表达式的类型, 括号内的是该表达式的属性, 是可选内容, `attrN` 和 `valueN` 分别为属性名称和属性值. "
+"不同类型的表达式的属性也各不相同, 其中一些是必填, 会在介绍表达式时具体标注."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:11
@@ -2723,9 +2676,8 @@ msgstr ""
 
 #: src/uml/syntax/comment_expression.md:19
 msgid ""
-"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行"
-"开始到下一个 `#>pop` 表达式所在行结束. 因此, 多数其他表达式后面都必须跟一个 "
-"`#>pop` 表达式, 表示结束当前表达式的作用范围."
+"注释表达式以行为单位, 作用于数行内的元素, 变量等, 其作用范围是从表达式所在行开始到下一个 `#>pop` 表达式所在行结束. 因此, "
+"多数其他表达式后面都必须跟一个 `#>pop` 表达式, 表示结束当前表达式的作用范围."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:21
@@ -2761,9 +2713,7 @@ msgid "透明度表达式 `#>alpha`"
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:46
-msgid ""
-"`a`(选填, 默认为 `0`): 透明度, 取值范围为 `[0, 1]`, `0` 为完全透明, `1` 为完"
-"全不透明"
+msgid "`a`(选填, 默认为 `0`): 透明度, 取值范围为 `[0, 1]`, `0` 为完全透明, `1` 为完全不透明"
 msgstr ""
 "`a`(optional, default `0`): transparency, range is `[0, 1]`, `0` is fully "
 "transparent, `1` is fully opaque."
@@ -2845,9 +2795,7 @@ msgid "条件表达式 `#>if` 等"
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:85
-msgid ""
-"`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示"
-"真."
+msgid "`condition`(必填): 条件表达式, 可以是任意表达式, 当值为 `0` 表示假, 否则表示真."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:87
@@ -2859,22 +2807,19 @@ msgid "低版本兼容表达式 `#>if-no-v2`"
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:95
-msgid ""
-"如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元"
-"素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
+msgid "如果你的 UML 文件中使用了 V2 版本中没有的特性, 可以在使用这个表达式显示部分元素, 以提示使用低版本的 Phira 客户端的用户尽快升级."
 msgstr ""
 
 #: src/uml/syntax/comment_expression.md:97
 msgid ""
-"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注"
-"释忽略. `#if-no-v2` 表达式实际上的作用是忽略其作用范围内的内容."
+"注释表达式是 V2 版本的新功能, 只在 V2 版本中有效, 在 V1 版本中会被当作一般注释忽略. `#if-no-v2` "
+"表达式实际上的作用是忽略其作用范围内的内容."
 msgstr ""
 
 #: src/uml/debugging.md:3
 msgid ""
-"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可"
-"执行文件同目录下新建名为 `test.uml` 的文件. 此后进入任意一个活动, 页面内容将"
-"与 `test.uml` 保持实时同步."
+"编译 `phira-main` 时加入参数 `--features event_debug`, 然后在 Phira 客户端可执行文件同目录下新建名为 "
+"`test.uml` 的文件. 此后进入任意一个活动, 页面内容将与 `test.uml` 保持实时同步."
 msgstr ""
 
 #: src/uml/examples/index.md:3
@@ -2883,8 +2828,8 @@ msgstr ""
 
 #: src/uml/examples/template_event.md:3
 msgid ""
-"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动"
-"方要求过于抽象, sjfhsjfh 决定写一个仅包含基本功能的页面."
+"此文件为 sjfhsjfh 于 2024-02-07 凌晨为 _2024 羽笙杯_创建的活动文件, 鉴于活动方要求过于抽象, sjfhsjfh "
+"决定写一个仅包含基本功能的页面."
 msgstr ""
 
 #: src/uml/examples/template_event.md:5 src/uml/examples/xmas-2024.md:5
@@ -2904,12 +2849,13 @@ msgid ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg."
-"jpeg\", r: bg_rect, t: cropCenter)\n"
+"img(id: bg, url: "
+"\"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: bg_rect, "
+"t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
-"w * 2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 "
+"/ w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -2950,12 +2896,13 @@ msgstr ""
 "\n"
 "let bg_rect = [0, 0 - rh + o, 2, rh]\n"
 "\n"
-"img(id: bg, url: \"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg."
-"jpeg\", r: bg_rect, t: cropCenter)\n"
+"img(id: bg, url: "
+"\"https://files-cf.phira.cn/events/xmas-2023-kedmue/bg.jpeg\", r: bg_rect, "
+"t: cropCenter)\n"
 "\n"
 "# Back button\n"
-"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 / "
-"w * 2, 75 / h * 1.18]\n"
+"let back_btn_rect = [bg_rect.x + 100 / w * 2, bg_rect.t + 50 / h * rh, -45 "
+"/ w * 2, 75 / h * 1.18]\n"
 "img(id: back_btn_img, url: \"https://files-cf.phira.cn/ltc-arrow.png\", r: "
 "back_btn_rect, t: fit)\n"
 "btn(id: back_btn, r: back_btn_rect, action: \"exit\")\n"
@@ -2990,15 +2937,11 @@ msgstr ""
 "```"
 
 #: src/uml/advanced/index.md:3
-msgid ""
-"UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的"
-"效果."
+msgid "UML 是一种非常简单的语言, 但是通过组合简单的元素, 我们也能实现一些较为复杂的效果."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:3
-msgid ""
-"如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内"
-"容, 并通过整个页面所有元素的移动达到类似页面切换的效果."
+msgid "如果我们希望活动界面包括多个页面, 可以通过在超出屏幕的部分放置其他页面的内容, 并通过整个页面所有元素的移动达到类似页面切换的效果."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:5
@@ -3024,22 +2967,18 @@ msgstr ""
 
 #: src/uml/advanced/page_switch.md:47
 msgid ""
-"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` "
-"的偏移量, 由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他"
-"页面的元素也会跟着移动."
+"在以上的定义中, 我们通过 `page_offset_x_n` 和 `page_offset_y_n` 定义了 `o11` 的偏移量, "
+"由于其他页面的偏移量都是相对于 `o11` 的, 所以在 `o11` 移动时, 其他页面的元素也会跟着移动."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:49
 msgid ""
-"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切"
-"换后, 用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上"
-"方的内容移出屏幕."
+"此外, 我们还通过 `#>if` 设置了 `o22` 和 `o32` 绘制的时机. 这是为了防止纵向切换后, "
+"用户在活动首屏看到当前页面上方页面的内容. 通过这个值, 我们可以将页面上方的内容移出屏幕."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:51
-msgid ""
-"为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按"
-"钮的 `last` 属性计算出偏移量的值."
+msgid "为了得出这些偏移量的具体值, 我们需要使用定义一些用于切换页面的按钮, 并通过按钮的 `last` 属性计算出偏移量的值."
 msgstr ""
 
 #: src/uml/advanced/page_switch.md:74 src/uml/advanced/page_switch.md:82
@@ -3065,11 +3004,11 @@ msgstr ""
 #: src/uml/advanced/page_switch.md:99 src/uml/advanced/page_switch.md:108
 #: src/uml/advanced/page_switch.md:290 src/uml/advanced/page_switch.md:299
 msgid ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
-"up_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_"
+"arrow.png\""
 msgstr ""
-"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/"
-"up_arrow.png\""
+"\"https://teamflos.github.io/phira-docs/assets/uml/advanced/page_switch/up_"
+"arrow.png\""
 
 #: src/uml/advanced/page_switch.md:104 src/uml/advanced/page_switch.md:114
 #: src/uml/advanced/page_switch.md:295 src/uml/advanced/page_switch.md:305
@@ -3106,8 +3045,8 @@ msgstr ""
 
 #: src/phira_build_guide/index.md:2
 msgid ""
-"~~什么，移动设备？，我不会，长大后再学习~~<br> Windows：[here](./Windows."
-"md)<br> Linux：[here](./Linux.md)<br>"
+"~~什么，移动设备？，我不会，长大后再学习~~<br> Windows：[here](./Windows.md)<br> "
+"Linux：[here](./Linux.md)<br>"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:1
@@ -3120,9 +3059,8 @@ msgstr ""
 
 #: src/phira_build_guide/cargo.md:6
 msgid ""
-"双击打开 `rustup-init.exe` 后出现安装窗口；输入`2` 然后输入 `y` 然后再次输入 "
-"`2` ，然后输入 `x86_64-pc-windows-gnu` ，最后一路回车开始安装，直到输出 "
-"`Rust is installed now. Great!`"
+"双击打开 `rustup-init.exe` 后出现安装窗口；输入`2` 然后输入 `y` 然后再次输入 `2` ，然后输入 "
+"`x86_64-pc-windows-gnu` ，最后一路回车开始安装，直到输出 `Rust is installed now. Great!`"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:7
@@ -3131,9 +3069,9 @@ msgstr ""
 
 #: src/phira_build_guide/cargo.md:9
 msgid ""
-"前往 [MSYS2](https://www.msys2.org/) 官网下载 MSYS2 安装程序，下载完成后双击"
-"打开，如无特殊需求，一路下一步即可，直到提示 `Finished the MSYS2 Setup`，点击"
-"右下角的按钮后将弹出一个窗口，输入以下指令，安装过程一路回车即可。"
+"前往 [MSYS2](https://www.msys2.org/) 官网下载 MSYS2 "
+"安装程序，下载完成后双击打开，如无特殊需求，一路下一步即可，直到提示 `Finished the MSYS2 "
+"Setup`，点击右下角的按钮后将弹出一个窗口，输入以下指令，安装过程一路回车即可。"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:10
@@ -3146,28 +3084,27 @@ msgstr ""
 
 #: src/phira_build_guide/cargo.md:13
 msgid ""
-"如果您无法连接到 github，您也可以去 [缓存站](https://www.nuanr-mxi.com/msys."
-"exe) 下载 MSYS2， **注意，缓存站只能保证您可以下载，不能高速下载，也不一定是"
-"最新版。**"
+"如果您无法连接到 github，您也可以去 [缓存站](https://www.nuanr-mxi.com/msys.exe) 下载 MSYS2， "
+"**注意，缓存站只能保证您可以下载，不能高速下载，也不一定是最新版。**"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:14
 msgid ""
-"打开命令提示符（cmd）或 PowerShell，输入 `cargo -V` 检查是否成功安装，若返回"
-"版本号则安装成功，若出现其他提示，请见 Windows 常见问题。"
+"打开命令提示符（cmd）或 PowerShell，输入 `cargo -V` 检查是否成功安装，若返回版本号则安装成功，若出现其他提示，请见 "
+"Windows 常见问题。"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:15
 msgid ""
-"按下图所示，修改环境变量 ![sys_path_I](./sys_path_I.png) ![sys_path_II](./"
-"sys_path_II.png) ![sys_path_III](./sys_path_III.png) ![sys_path_IV](./"
-"sys_path_IV.png) ![sys_path_V](./sys_path_V.png)"
+"按下图所示，修改环境变量 ![sys_path_I](./sys_path_I.png) "
+"![sys_path_II](./sys_path_II.png) ![sys_path_III](./sys_path_III.png) "
+"![sys_path_IV](./sys_path_IV.png) ![sys_path_V](./sys_path_V.png)"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:17
 msgid ""
-"打开命令提示符（cmd）或 PowerShell，输入 `gcc -v` 检查是否成功安装，若返回版"
-"本号则安装成功，若出现其他提示，请见 Windows 常见问题。"
+"打开命令提示符（cmd）或 PowerShell，输入 `gcc -v` 检查是否成功安装，若返回版本号则安装成功，若出现其他提示，请见 "
+"Windows 常见问题。"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:19
@@ -3199,9 +3136,7 @@ msgid "sudo apt install cargo -y"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:33
-msgid ""
-"若无报错，输入 `cargo -V` 检查是否输出版本号，若出现其他输出，请见 Linux 常见"
-"问题"
+msgid "若无报错，输入 `cargo -V` 检查是否输出版本号，若出现其他输出，请见 Linux 常见问题"
 msgstr ""
 
 #: src/phira_build_guide/cargo.md:35
@@ -3228,8 +3163,8 @@ msgstr ""
 
 #: src/phira_build_guide/Windows.md:5
 msgid ""
-"确保系统安装了 cargo，可以在命令提示符（cmd）或者 PowerShell 使用 `cargo -V` "
-"检查系统是否安装了 cargo。如果提示以下信息："
+"确保系统安装了 cargo，可以在命令提示符（cmd）或者 PowerShell 使用 `cargo -V` 检查系统是否安装了 "
+"cargo。如果提示以下信息："
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:6
@@ -3238,8 +3173,8 @@ msgstr ""
 
 #: src/phira_build_guide/Windows.md:7
 msgid ""
-"`cargo : 无法将“cargo”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。请检"
-"查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。`"
+"`cargo : 无法将“cargo”项识别为 "
+"cmdlet、函数、脚本文件或可运行程序的名称。请检查名称的拼写，如果包括路径，请确保路径正确，然后再试一次。`"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:8
@@ -3251,47 +3186,40 @@ msgid "从 GitHub 下载源码到本地："
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:10
-msgid ""
-"若您安装了 git 工具，请使用 `git clone https://github.com/TeamFlos/phira."
-"git` 将仓库克隆到本地。"
+msgid "若您安装了 git 工具，请使用 `git clone https://github.com/TeamFlos/phira.git` 将仓库克隆到本地。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:11
 msgid ""
-"若您没有安装 git 工具，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download "
-"ZIP` 将代码下载到本地，随后将代码解压到本地任意目录。"
+"若您没有安装 git 工具，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download ZIP` "
+"将代码下载到本地，随后将代码解压到本地任意目录。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:12 src/phira_build_guide/Linux.md:9
-msgid ""
-"**如果您无法连接到 GitHub，您也可以使用 git 加速网站提供的加速地址克隆与下"
-"载。**"
+msgid "**如果您无法连接到 GitHub，您也可以使用 git 加速网站提供的加速地址克隆与下载。**"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:13
 msgid ""
-"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 "
-"`Source code(zip)` 到本地，解压到任意路径即可。**"
+"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 `Source code(zip)` "
+"到本地，解压到任意路径即可。**"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:14 src/phira_build_guide/Linux.md:11
-msgid ""
-"**警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任"
-"何字符。**"
+msgid "**警告：为了防止玄学问题，我们不建议路径中包含除了 ASCII 编码包含字符以外的任何字符。**"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:15
 msgid ""
-"perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安"
-"装了 perl，如果没有，请搜索并打开 `MSYS2 UCRT64` 输入 `pacman -S perl` 安装 "
-"perl"
+"perl，您可以在命令提示符（cmd）或者 PowerShell 使用 `perl -v` 检查系统是否安装了 perl，如果没有，请搜索并打开 "
+"`MSYS2 UCRT64` 输入 `pacman -S perl` 安装 perl"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:16 src/phira_build_guide/Linux.md:12
 msgid ""
-"静态库文件，您可以 [直接下载](./prpr-avc.zip) 或者在 [缓存站](https://www."
-"nuanr-mxi.com/prpr-avc.zip) 下载静态库文件，下载完成后直接解压到代码根目录"
-"下，如果提示覆盖文件，请点击覆盖。"
+"静态库文件，您可以 [直接下载](./prpr-avc.zip) 或者在 "
+"[缓存站](https://www.nuanr-mxi.com/prpr-avc.zip) "
+"下载静态库文件，下载完成后直接解压到代码根目录下，如果提示覆盖文件，请点击覆盖。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:18 src/phira_build_guide/Linux.md:21
@@ -3299,15 +3227,13 @@ msgid "开始构建"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:20 src/phira_build_guide/Windows.md:29
-msgid ""
-"在命令提示符（cmd）或者 PowerShell 切换到代码根目录（如 `D:\\phira\\` ）"
+msgid "在命令提示符（cmd）或者 PowerShell 切换到代码根目录（如 `D:\\phira\\` ）"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:21
 msgid ""
-"在命令提示符（cmd）或者 PowerShell 使用 `cargo build -r --bin phira-main` ，"
-"如果不出意外，在 `openssl-sys(build)` 时，您将卡很久很久，请不要退出，这是正"
-"常的。"
+"在命令提示符（cmd）或者 PowerShell 使用 `cargo build -r --bin phira-main` ，如果不出意外，在 "
+"`openssl-sys(build)` 时，您将卡很久很久，请不要退出，这是正常的。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:22 src/phira_build_guide/Windows.md:32
@@ -3316,14 +3242,12 @@ msgstr ""
 
 #: src/phira_build_guide/Windows.md:23 src/phira_build_guide/Windows.md:33
 msgid ""
-"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` ，至此，"
-"构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。"
+"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` "
+"，至此，构建流程全部完成，您可以直接运行 `phira-main.exe` 检查资源文件是否完整。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:25 src/phira_build_guide/Linux.md:27
-msgid ""
-"**注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，"
-"您可以前往 release 页面下载任意版本，获取资源文件**"
+msgid "**注意：在此文档编写时，代码目录下的资源文件并不完整，如果您发现主程序闪退，您可以前往 release 页面下载任意版本，获取资源文件**"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:27
@@ -3336,9 +3260,9 @@ msgstr ""
 
 #: src/phira_build_guide/Windows.md:31
 msgid ""
-"在命令提示符（cmd）或者 PowerShell 使用 `cargo build --target=i686-pc-"
-"windows-gnu --release --package phira-main` ，如果不出意外，在 `openssl-"
-"sys(build)` 时，您将卡很久很久，请不要退出，这是正常的。"
+"在命令提示符（cmd）或者 PowerShell 使用 `cargo build --target=i686-pc-windows-gnu "
+"--release --package phira-main` ，如果不出意外，在 `openssl-sys(build)` "
+"时，您将卡很久很久，请不要退出，这是正常的。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:35
@@ -3352,15 +3276,15 @@ msgstr ""
 #: src/phira_build_guide/Windows.md:46
 msgid ""
 "note:这里有个坑。。。如果报错的话尝试把 msys64\\mingw32\\bin 这个目录下的 "
-"i686-w64-mingw32-gcc-ar.exe , i686-w64-mingw32-gcc-nm.exe , i686-w64-mingw32-"
-"gcc-ranlib.exe 复制粘贴一份然后重命名成 i686-w64-mingw32-ar.exe , i686-w64-"
-"mingw32-nm.exe , i686-w64-mingw32-ranlib.exe"
+"i686-w64-mingw32-gcc-ar.exe , i686-w64-mingw32-gcc-nm.exe , "
+"i686-w64-mingw32-gcc-ranlib.exe 复制粘贴一份然后重命名成 i686-w64-mingw32-ar.exe , "
+"i686-w64-mingw32-nm.exe , i686-w64-mingw32-ranlib.exe"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:48
 msgid ""
-"接着把build文件夹下的所有形如 `*.a` 的文件复制到 `phira\\prpr-avc\\static-"
-"lib\\i686-pc-windows-gnu` 就可以啦"
+"接着把build文件夹下的所有形如 `*.a` 的文件复制到 "
+"`phira\\prpr-avc\\static-lib\\i686-pc-windows-gnu` 就可以啦"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:52
@@ -3416,8 +3340,7 @@ msgid "Failed to execute: program not found"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:76
-msgid ""
-"A. 缺失 `make` 指令，请前往 MSYS2 终端中使用 `pacman -S make` 安装此命令。"
+msgid "A. 缺失 `make` 指令，请前往 MSYS2 终端中使用 `pacman -S make` 安装此命令。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:78
@@ -3425,9 +3348,7 @@ msgid "Q. 报错包含 `This perl inplementation doesn't produce lnix like paths
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:80
-msgid ""
-"A. 使用的 `perl` 不适用于 `gcc`，请删除原有 `perl` 的环境变量或者直接卸载原有"
-"的 `perl`。"
+msgid "A. 使用的 `perl` 不适用于 `gcc`，请删除原有 `perl` 的环境变量或者直接卸载原有的 `perl`。"
 msgstr ""
 
 #: src/phira_build_guide/Windows.md:82
@@ -3448,26 +3369,26 @@ msgstr ""
 
 #: src/phira_build_guide/Linux.md:5
 msgid ""
-"确保系统安装了 cargo，可以在终端使用 `cargo -V` 检查系统是否安装了 cargo，如"
-"果没有安装，请点击 [这里](./cargo.md)按步骤安装构建工具"
+"确保系统安装了 cargo，可以在终端使用 `cargo -V` 检查系统是否安装了 cargo，如果没有安装，请点击 "
+"[这里](./cargo.md)按步骤安装构建工具"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:7
 msgid ""
-"若您是纯终端，建议使用 git 工具，请使用 `git clone https://github.com/"
-"TeamFlos/phira.git` 将仓库克隆到本地。"
+"若您是纯终端，建议使用 git 工具，请使用 `git clone https://github.com/TeamFlos/phira.git` "
+"将仓库克隆到本地。"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:8
 msgid ""
-"若您使用了桌面环境，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download "
-"ZIP` 将代码下载到本地，随后将代码解压到本地任意目录。"
+"若您使用了桌面环境，您也可以在 Phira 仓库页面点击 Code 按钮选择 `Download ZIP` "
+"将代码下载到本地，随后将代码解压到本地任意目录。"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:10
 msgid ""
-"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 "
-"`Source code(tar.gz)` 到本地，解压到任意路径即可。**"
+"**若您要构建指定版本的 Phira，请前往 release 页面在 Assets 中选择下载 `Source code(tar.gz)` "
+"到本地，解压到任意路径即可。**"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:13
@@ -3492,10 +3413,9 @@ msgstr ""
 
 #: src/phira_build_guide/Linux.md:25
 msgid ""
-"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` ，至此，"
-"构建流程全部完成，您可以在带有桌面环境的情况下直接运行 `phira-main` 检查资源"
-"文件是否完整，若您没有桌面环境，程序将会闪退（实测 WSL 无法兼容，如果在 WSL "
-"下运行将会闪退），至此，构建流程结束。"
+"复制 `.\\assets\\` 目录中的所有文件到 `.\\target\\release\\assets\\` "
+"，至此，构建流程全部完成，您可以在带有桌面环境的情况下直接运行 `phira-main` 检查资源文件是否完整，若您没有桌面环境，程序将会闪退（实测 "
+"WSL 无法兼容，如果在 WSL 下运行将会闪退），至此，构建流程结束。"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:31
@@ -3511,8 +3431,7 @@ msgid "Q. 构建时报错 `The pkg-config command could not be found`"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:37
-msgid ""
-"A. 缺失 `pkg-config` 指令，使用 `sudo apt install pkg-config -y` 安装即可。"
+msgid "A. 缺失 `pkg-config` 指令，使用 `sudo apt install pkg-config -y` 安装即可。"
 msgstr ""
 
 #: src/phira_build_guide/Linux.md:39
@@ -3532,9 +3451,7 @@ msgid "其实全都是 sjfhsjfh 的错"
 msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:3
-msgid ""
-"此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了"
-"\" 的时间)"
+msgid "此事件发生于 2023-07-10 18:53 (此为 sjfhsjfh 在内部群发送消息 \"我来磕大头了\" 的时间)"
 msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:5
@@ -3545,14 +3462,12 @@ msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:7
 msgid ""
-"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将"
-"未写完的 UPDATE 语句发送出去(没有加上 `WHERE` 关键字, 也没有写好 `SET banned "
-"= TRUE`), 导致所有用户的用户名被修改为 \"长风的柳絮\""
+"sjfhsjfh 在手动操作数据库(使用 SQL 语句)封禁用户 \"长风的柳絮\"时, 一不小心将未写完的 UPDATE 语句发送出去(没有加上 "
+"`WHERE` 关键字, 也没有写好 `SET banned = TRUE`), 导致所有用户的用户名被修改为 \"长风的柳絮\""
 msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:9
-msgid ""
-"此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
+msgid "此事件耗费 Mivik 一整个下午和晚自习进行恢复(从日志中), 并未造成太多数据损失"
 msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:11
@@ -3561,27 +3476,20 @@ msgstr ""
 
 #: src/dev-incident/长风的柳絮.md:13
 msgid ""
-"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止"
-"类似事件再次发生. 不幸的是, sjfhsjfh 的扫帚星属性并未因此事件而消失, 见 "
-"[v0.6.0 更新消息](./v0.6.0更新消息.md)"
+"凡事都要两面看, 此事过后 Mivik 给审核组长提供了一个方便快捷的封禁按钮, 以防止类似事件再次发生. 不幸的是, sjfhsjfh "
+"的扫帚星属性并未因此事件而消失, 见 [v0.6.0 更新消息](./v0.6.0更新消息.md)"
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:3
-msgid ""
-"此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干"
-"了啥?\" 的时间)"
+msgid "此事件发生于 2024-01-01 23:16 (此为 Mivik 在上架讨论群内发送消息 \"阿我草你干了啥?\" 的时间)"
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:5
-msgid ""
-"同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此"
-"事件也被称为 \"长风的柳絮 2\""
+msgid "同 [长风的柳絮](./长风的柳絮.md) 事件类似, 为手动操作数据库造成的严重后果. 此事件也被称为 \"长风的柳絮 2\""
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:9
-msgid ""
-"sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消"
-"息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
+msgid "sjfhsjfh 企图修改误放出的错误公告, 且心急如焚, 故不当操作导致所有用户的所有消息内容被修改为新的公告内容(即 v0.6.0 更新公告)"
 msgstr ""
 
 #: src/dev-incident/v0.6.0更新消息.md:11
@@ -3594,8 +3502,8 @@ msgstr "6thPecJam"
 
 #: src/dev-incident/6thpecjam.md:3
 msgid ""
-"此事件发生于 2024-02-10 凌晨约 00:40, 相较于预计的 PecJam 提交通道开启时间 "
-"2024-02-10 00:00, 已经推迟超多半个小时"
+"此事件发生于 2024-02-10 凌晨约 00:40, 相较于预计的 PecJam 提交通道开启时间 2024-02-10 00:00, "
+"已经推迟超多半个小时"
 msgstr ""
 
 #: src/dev-incident/6thpecjam.md:5
@@ -3604,21 +3512,18 @@ msgstr ""
 
 #: src/dev-incident/6thpecjam.md:9
 msgid ""
-"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira "
-"后端代码进行了胡乱修改, 提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖"
-"的被窝中出来帮忙修复, 实在是罪大恶极"
+"sjfhsjfh 眼看大家在群里询问为何 PecJam 提交通道还未开启, 在焦急之中对 Phira 后端代码进行了胡乱修改, "
+"提交时甚至没有进行编译检查, 最后不得不请 Mivik 从温暖的被窝中出来帮忙修复, 实在是罪大恶极"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:3
 msgid ""
-"此事件发生于 2024-04-13 19:00 （此为 大鸽子咕咕咕 在上架讨论群内发送“谁想要业"
-"绩可以看看这个，四票打回了还是这个状态，不知道是不是bug”的时间)"
+"此事件发生于 2024-04-13 19:00 （此为 大鸽子咕咕咕 "
+"在上架讨论群内发送“谁想要业绩可以看看这个，四票打回了还是这个状态，不知道是不是bug”的时间)"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:7
-msgid ""
-"评议员在打回谱面时若网络情况较差就会出现已拒绝但没有打回的现象，由此吸引了14"
-"位评议员先后参与了天空之城的打回操作"
+msgid "评议员在打回谱面时若网络情况较差就会出现已拒绝但没有打回的现象，由此吸引了14位评议员先后参与了天空之城的打回操作"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:9
@@ -3628,8 +3533,9 @@ msgstr ""
 #: src/dev-incident/天空之城.md:11
 msgid ""
 "无人通过  \n"
-"14 人拒绝：超爱吃盐的盐盐,twotthrees233,右果ary,WinterPT,scylic,远空星灵,"
-"SSuent\\_,-zerouth-,StR-1,sjfhsjfh,Max3957,Kedmue,Dr.Asriel,Naptie"
+"14 "
+"人拒绝：超爱吃盐的盐盐,twotthrees233,右果ary,WinterPT,scylic,远空星灵,SSuent\\_,-zerouth-,"
+"StR-1,sjfhsjfh,Max3957,Kedmue,Dr.Asriel,Naptie"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:14
@@ -3637,34 +3543,27 @@ msgid "......为什么 sjfhsjfh 也在里面"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:16
-msgid ""
-"最终因 Naptie 使用了 \"润润润牌私有连接\" 而成功触发打回操作，结束本谱战斗。 "
-"但战斗真的会结束吗？谁知道呢（"
+msgid "最终因 Naptie 使用了 \"润润润牌私有连接\" 而成功触发打回操作，结束本谱战斗。 但战斗真的会结束吗？谁知道呢（"
 msgstr ""
 
 #: src/dev-incident/天空之城.md:19
-msgid ""
-"关于评议员的详细留言请看[\\#15169 评议记录](https://phira.moe/"
-"chart/15169#stb)"
+msgid "关于评议员的详细留言请看[\\#15169 评议记录](https://phira.moe/chart/15169#stb)"
 msgstr ""
 
 #: src/dev-incident/ForeverYoung.md:3
 msgid ""
-"此事件发生于 2024-05-25 凌晨 04:10 (此为 sjfhsjfh 在内部群发送消息 \"吗的我又"
-"干蠢事了 \\[动画表情\\] 想原地紫砂\" 的时间)"
+"此事件发生于 2024-05-25 凌晨 04:10 (此为 sjfhsjfh 在内部群发送消息 \"吗的我又干蠢事了 \\[动画表情\\] "
+"想原地紫砂\" 的时间)"
 msgstr ""
 
 #: src/dev-incident/ForeverYoung.md:7
 msgid ""
-"sjfhsjfh 想干点事于是请求 Mivik 把动态分发的字体 `bold.ttf` 的步骤传授给我, "
-"我来更新一下字符几来修复部分语言缺字的情况, 进展还算顺利, 可是到测试的时候, "
-"根据反馈选择了法语随便点进一张 **Stable** 谱面(受害者出场: [\\#16576 Forever "
-"Young](https://phira.moe/chart/16576)), 再看到出问题的地方是删除确认提示框的"
-"时候脑袋短路了两秒, 觉得不太对但没停住手, 知道应该下载到本地删除本地文件, 但"
-"是下载了之后习惯性一翻到底点击删除在线. 这时候 sjfh 对着法语的 \"Annuler\" "
-"和 \"Confirmer\" 两个按钮大脑开始飞速运转, 很明显能猜测到后者是确认, 但此时已"
-"经sjfh理智归零(考虑到此刻已经是明日方舟服务器每日计时更替之后了), 停留了没超"
-"过 0.5s 就点了确认, 于是就有了上面的聊天消息."
+"sjfhsjfh 想干点事于是请求 Mivik 把动态分发的字体 `bold.ttf` 的步骤传授给我, 我来更新一下字符几来修复部分语言缺字的情况, "
+"进展还算顺利, 可是到测试的时候, 根据反馈选择了法语随便点进一张 **Stable** 谱面(受害者出场: [\\#16576 Forever "
+"Young](https://phira.moe/chart/16576)), 再看到出问题的地方是删除确认提示框的时候脑袋短路了两秒, "
+"觉得不太对但没停住手, 知道应该下载到本地删除本地文件, 但是下载了之后习惯性一翻到底点击删除在线. 这时候 sjfh 对着法语的 "
+"\"Annuler\" 和 \"Confirmer\" 两个按钮大脑开始飞速运转, 很明显能猜测到后者是确认, "
+"但此时已经sjfh理智归零(考虑到此刻已经是明日方舟服务器每日计时更替之后了), 停留了没超过 0.5s 就点了确认, 于是就有了上面的聊天消息."
 msgstr ""
 
 #: src/dev-incident/ForeverYoung.md:9
