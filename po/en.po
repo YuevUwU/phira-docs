@@ -591,7 +591,7 @@ msgstr "Music file"
 
 #: src/chart-standard/index.md:18
 msgid "见 [音乐文件格式](./music.md)"
-msgstr "See [Music File Format](./music.md)"
+msgstr "See [Music file format](./music.md)"
 
 #: src/chart-standard/index.md:20 src/chart-standard/chartinfo.md:182
 msgid "TBD"
@@ -870,7 +870,7 @@ msgid ""
 "源代码: [截断](https://github.com/TeamFlos/phira/blob/"
 "dad7d6f3a8535cabfb70ec3f954d774948c440f9/phira/src/scene/song.rs#L94)"
 msgstr ""
-"Source code [Truncate](https://github.com/TeamFlos/phira/blob/"
+"Source code: [Truncate](https://github.com/TeamFlos/phira/blob/"
 "dad7d6f3a8535cabfb70ec3f954d774948c440f9/phira/src/scene/song.rs#L94)"
 
 #: src/chart-standard/chartinfo.md:109
